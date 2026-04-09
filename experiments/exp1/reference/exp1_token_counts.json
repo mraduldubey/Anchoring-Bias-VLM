@@ -1,0 +1,44 @@
+{
+  "exp1_0_baseline_vision_only": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 111,
+    "total_input_tokens": 1143
+  },
+  "exp1_b_text_bbox_real": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 353,
+    "total_input_tokens": 1385
+  },
+  "exp1_c_text_bbox_fake": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 423,
+    "total_input_tokens": 1455
+  },
+  "exp1_d_visual_bbox_real": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 294,
+    "total_input_tokens": 1326
+  },
+  "exp1_e_visual_bbox_fake": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 294,
+    "total_input_tokens": 1326
+  },
+  "exp1_f_crossmodal_bbox_real": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 328,
+    "total_input_tokens": 1360
+  },
+  "exp1_g_crossmodal_bbox_fake": {
+    "grid_image_tokens": 516,
+    "center_image_tokens": 516,
+    "text_tokens": 390,
+    "total_input_tokens": 1422
+  }
+}

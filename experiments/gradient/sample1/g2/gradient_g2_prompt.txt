@@ -1,0 +1,231 @@
+You are analyzing a surveillance video.
+The grid image shows 10 uniformly-sampled frames from a 10.0s window (85.0s–95.0s), left-to-right, top-to-bottom, each timestamped.
+You are also given structured tracking data from a computer vision pipeline (YOLOv8 + BoT-SORT tracker).
+
+The tracking data contains sampled positions for tracked persons at key moments.
+
+The data is ML-generated and may have minor noise. Use the visual frames as ground truth when signals seem ambiguous.
+
+Tracking data:
+{
+  "mode": "gradient_g2",
+  "meta": {
+    "source": "yolov8l + botsort",
+    "cx_cy_meaning": "centroid pixel coordinates"
+  },
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s",
+    "duration_s": 10.0
+  },
+  "tracks": [
+    {
+      "id": "T1",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 511.7,
+          "cy": 129.3,
+          "bbox_area": 8132.0
+        },
+        {
+          "t": "87.5s",
+          "cx": 512.6,
+          "cy": 128.4,
+          "bbox_area": 7933.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 512.2,
+          "cy": 128.5,
+          "bbox_area": 7971.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 512.7,
+          "cy": 129.1,
+          "bbox_area": 7948.0
+        },
+        {
+          "t": "95.0s",
+          "cx": 512.8,
+          "cy": 128.9,
+          "bbox_area": 8105.0
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 266.8,
+          "cy": 356.7,
+          "bbox_area": 43397.0,
+          "carrying": [
+            "handbag",
+            "backpack",
+            "suitcase"
+          ]
+        },
+        {
+          "t": "87.5s",
+          "cx": 296.8,
+          "cy": 361.4,
+          "bbox_area": 29381.0,
+          "carrying": [
+            "handbag",
+            "backpack",
+            "suitcase"
+          ]
+        },
+        {
+          "t": "90.0s",
+          "cx": 350.1,
+          "cy": 370.4,
+          "bbox_area": 27067.0,
+          "carrying": [
+            "handbag",
+            "backpack",
+            "suitcase"
+          ]
+        },
+        {
+          "t": "92.5s",
+          "cx": 432.0,
+          "cy": 372.8,
+          "bbox_area": 32680.0,
+          "carrying": [
+            "handbag",
+            "backpack",
+            "suitcase"
+          ]
+        },
+        {
+          "t": "95.0s",
+          "cx": 343.7,
+          "cy": 354.0,
+          "bbox_area": 34042.0,
+          "carrying": [
+            "handbag",
+            "backpack",
+            "suitcase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 273.8,
+          "cy": 145.3,
+          "bbox_area": 15055.0
+        },
+        {
+          "t": "87.5s",
+          "cx": 273.6,
+          "cy": 147.1,
+          "bbox_area": 15297.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 273.8,
+          "cy": 148.0,
+          "bbox_area": 15553.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 273.9,
+          "cy": 146.5,
+          "bbox_area": 15185.0
+        },
+        {
+          "t": "95.0s",
+          "cx": 273.9,
+          "cy": 148.8,
+          "bbox_area": 15609.0
+        }
+      ]
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 485.6,
+          "cy": 96.2,
+          "bbox_area": 3543.0
+        },
+        {
+          "t": "87.5s",
+          "cx": 482.8,
+          "cy": 77.9,
+          "bbox_area": 3143.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 479.8,
+          "cy": 65.9,
+          "bbox_area": 2483.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 478.1,
+          "cy": 56.3,
+          "bbox_area": 1909.0
+        },
+        {
+          "t": "95.0s",
+          "cx": 471.5,
+          "cy": 47.0,
+          "bbox_area": 1525.0
+        }
+      ]
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 448.5,
+          "cy": 93.8,
+          "bbox_area": 5290.0
+        },
+        {
+          "t": "87.5s",
+          "cx": 444.0,
+          "cy": 74.5,
+          "bbox_area": 4162.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 444.6,
+          "cy": 62.7,
+          "bbox_area": 2982.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 444.3,
+          "cy": 54.9,
+          "bbox_area": 2562.0
+        },
+        {
+          "t": "95.0s",
+          "cx": 447.5,
+          "cy": 46.0,
+          "bbox_area": 1915.0
+        }
+      ]
+    }
+  ]
+}
+
+Describe what is happening in this window. Include timestamps.
+Focus on: what people are doing, what objects are present, notable events, any suspicious or significant activity.

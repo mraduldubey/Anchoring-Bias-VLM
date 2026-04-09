@@ -1,0 +1,47 @@
+{
+  "mode": "gradient_g1",
+  "meta": {
+    "source": "yolov8l + botsort"
+  },
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s",
+    "duration_s": 10.0
+  },
+  "tracks": [
+    {
+      "id": "T1",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": [
+        "handbag",
+        "backpack",
+        "suitcase"
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    }
+  ]
+}

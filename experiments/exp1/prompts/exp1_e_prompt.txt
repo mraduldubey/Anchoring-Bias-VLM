@@ -1,0 +1,65 @@
+You are analyzing a surveillance video clip.
+
+You are given two images:
+- Image 1: a 3x3 temporal grid of 9 uniformly-sampled frames from an 85.0s–95.0s window, left-to-right top-to-bottom, each timestamped.
+- Image 2: the center frame (~90.0s) at full resolution.
+
+Describe what is happening in this window. Include timestamps.
+Focus on: what each person is doing, what objects are present, notable events, any suspicious or significant activity.
+
+You are also given structured detection data from a computer vision pipeline (YOLOv8 + BoT-SORT):
+
+{
+  "source": "yolov8l + botsort",
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s"
+  },
+  "detections": [
+    {
+      "id": "T1",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": [
+        "handbag",
+        "backpack",
+        "suitcase"
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "O164",
+      "class": "handbag",
+      "present": "90.0s"
+    },
+    {
+      "id": "O203",
+      "class": "suitcase",
+      "present": "90.0s"
+    },
+    {
+      "id": "O203",
+      "class": "handbag",
+      "present": "90.0s"
+    }
+  ]
+}

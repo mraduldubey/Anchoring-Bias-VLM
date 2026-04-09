@@ -1,0 +1,18 @@
+In the surveillance video window from 85.0s to 95.0s, the scene depicts an interior aisle, likely within a shop or market, lined with clothes racks on both sides. Several individuals are present, with one person performing a series of notable actions.
+
+Here's a breakdown of the activity:
+
+**Main Subject (Track T2 - Woman in red top, carrying a handbag):**
+This individual is the primary focus of activity in this segment.
+*   **85.0s - 88.0s:** T2 is initially seen at a clothes rack on the left side of the aisle. She reaches out and appears to be browsing or examining items on the rack. She is consistently identified as carrying a "handbag."
+*   **88.3s - 92.3s:** T2 picks up a dark garment and holds it, visually inspecting it with both hands. She slowly moves slightly along the aisle while examining the item. During this period, the `norm_speed` and `cx` values indicate lateral movement along the aisle.
+*   **92.7s - 93.0s:** This is a key moment. T2's body posture suggests she is placing the dark garment she was inspecting into her handbag. Her hands are positioned near her bag as if concealing the item within it.
+*   **93.3s - 95.0s:** Immediately following the action with her handbag, T2 turns away from the clothes rack and begins walking towards the camera. The increasing `norm_area_delta` (e.g., 0.0566 at 94.0s, 0.0281 at 95.0s) and a sustained `norm_speed` confirm she is moving closer to the camera and exiting the immediate area of the clothes rack.
+
+**Other Individuals (Background Activity):**
+*   **Track T1 (Person in background, center-right):** This person remains largely stationary in the distant background, slightly to the right of the aisle's center. Their `norm_speed` and `norm_area_delta` are consistently near zero.
+*   **Track T4 (Person in background, center-left):** Similar to T1, this person stands relatively still in the distant background, to the left of the aisle's center. Their movement metrics also indicate minimal activity.
+*   **Track T170 & T171 (People in far background):** Two other faint figures are visible even further back in the aisle, one on the right (T170) and one on the left (T171). Both show very small `bbox_area` values and minimal, slightly fluctuating movement, primarily moving further away from the camera as indicated by small negative `norm_area_delta` values. They do not engage in any distinct actions.
+
+**Notable Event / Suspicious Activity:**
+The most significant activity is performed by T2. After examining a dark garment, she is observed placing it into her handbag around **92.7s - 93.0s**. This action, coupled with her immediate departure from the area, is suspicious and suggests possible concealment of merchandise (shoplifting) rather than returning the item to the rack. No payment transaction or staff interaction is visible before she places the item in her bag.

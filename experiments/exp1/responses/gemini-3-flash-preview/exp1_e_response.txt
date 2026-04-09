@@ -1,0 +1,14 @@
+This 10-second video clip shows a woman browsing in a narrow shopping corridor, followed by her walking away down the hallway.
+
+### Main Activity:
+*   **85.0s – 88.7s:** A woman wearing a red long-sleeved top and dark pants (**T2**) is browsing through a rack of dark clothing on the left side of the corridor. She is carrying a large, dark bag over her right shoulder (identified by the detection system as a handbag, backpack, or suitcase). She appears to be handling the garments as she looks through them.
+*   **90.0s:** She finishes browsing, turns away from the clothing rack, and faces the camera. At this moment, she is holding a small dark object in her right hand, which the detection system identifies as a cell phone (confidence 0.44).
+*   **91.2s – 95.0s:** She turns and begins walking down the corridor away from the camera. As she walks, she looks down at the object in her hand (likely her phone) and occasionally glances back toward the area she just left.
+
+### Background and Environment:
+*   Several other people (**T1, T4, T170, T171**) are visible throughout the clip in the background at the far end of the hallway, walking or standing near other shop entrances. 
+*   The corridor features two mannequins that remain stationary: one wearing a long maroon dress on the left near the foreground and another wearing a pink and multi-colored outfit further down the hall on the right. (Note: The detection system misidentifies these as persons in the 90.0s frame).
+*   The shop on the right has a closed metal shutter with writing on it ("Interior / Exterior / Designing / Courses").
+
+### Notable Events:
+There is no clearly suspicious activity observed; the main subject (**T2**) appears to be a typical shopper browsing through merchandise before moving on while checking her phone. The detection of a "cell phone" at **90.0s** corresponds with her turning away from the rack and beginning to use the device.

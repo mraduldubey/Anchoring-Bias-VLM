@@ -1,0 +1,15 @@
+This surveillance video segment from 85.0s to 95.0s shows activity in an indoor shopping corridor.
+
+**Activity Description:**
+
+*   **85.0s – 87.5s:** A person, identified as **T2 (Woman in Red)**, is seen at a shop display on the left side of the corridor. At 85.0s, she reaches out with her right hand towards the displayed items. She continues to examine the display intently at 86.2s and 87.5s, appearing to hold a dark bag.
+*   **88.7s – 91.2s:** The Woman in Red (T2) turns and walks away from the display, moving deeper into the corridor. She is carrying a dark **handbag (O164/O203)** on her left side. At 90.0s, she is seen looking back towards the left, while continuing to walk away. In the background at 90.0s, two other persons, **T1 (man in dark clothing)** and **T4 (woman in pink)**, are walking away from the camera, further down the corridor. Other individuals (T170, T171) are also present in the background.
+*   **92.5s – 95.0s:** The Woman in Red (T2) briefly looks back to her right while walking (92.5s). She then stops and turns to face the right side of the corridor or possibly back towards the area she just left (93.7s). She is observed looking down and seemingly handling an object she is holding (93.7s, 95.0s).
+
+**Objects and Notable Events:**
+
+*   The primary object of focus is the **handbag (O164)** carried by the Woman in Red (T2). While the detection data also lists "backpack" and "suitcase" for T2 at 90.0s, visually, it appears to be a single dark handbag she is carrying and handling.
+*   The woman's actions of repeatedly stopping, examining displays, walking away, and then stopping again to look down and handle an object, could be interpreted as indecisive shopping behavior or potentially suspicious activity if she is concealing items. Without clearer views of her hands or the items being handled, it's difficult to confirm the nature of the activity at 93.7s-95.0s.
+*   Other static objects include mannequins with dresses in the shop windows.
+
+In summary, the segment focuses on the movements of a woman in red, who shows varied interest in the shop displays, while other people pass by in the background. Her final actions involve stopping and looking down at an object in her hands.

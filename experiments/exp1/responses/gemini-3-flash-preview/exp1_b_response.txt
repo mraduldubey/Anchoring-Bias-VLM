@@ -1,0 +1,15 @@
+This 10-second surveillance clip, from 85.0s to 95.0s, captures a woman in a red jacket browsing a clothing display in a corridor.
+
+### **Main Activity - Person T2**
+The primary focus is a woman (T2) wearing a red jacket, black pants, and carrying a large dark tote bag (O164/O203).
+*   **85.0s – 87.5s:** T2 stands by the clothing rack on the left, reaching up to examine and sift through various hanging garments.
+*   **88.7s – 90.0s:** She selects a dark item of clothing from the rack. At 90.0s, she looks directly toward the camera while holding the item.
+*   **91.2s – 95.0s:** T2 turns away from the display and begins walking toward the foreground. As she moves, she appears to be holding the item close to her body or bag, eventually moving out of the main browsing area by the end of the clip.
+
+### **Background and Environment**
+*   **Stationary Objects:** Two mannequins are visible; one is dressed in a red gown on the left (T4) and another in a light pink floral dress (T1) is positioned further down the hallway. 
+*   **Other Pedestrians:** In the distant background, two individuals (T170 and T171) are seen walking away from the camera down the corridor throughout the entire 10-second window.
+*   **Setting:** The scene takes place in a narrow commercial hallway or "fashion zone," as indicated by the signage, with closed shops on the right and clothing displays on the left.
+
+### **Summary of Significant Events**
+The notable activity is T2 selecting a garment and promptly walking away while looking at the camera. While she appears to be a shopper, her quick movement away from the rack after glancing at the camera could be considered noteworthy behavior in a security context.

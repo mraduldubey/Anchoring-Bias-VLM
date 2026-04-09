@@ -1,0 +1,12 @@
+This surveillance video captures a woman engaging in suspicious activity in what appears to be a clothing store or market corridor.
+
+Here's a breakdown of the events:
+
+*   **85.0s - 86.0s:** A woman (tracked as T1), wearing a red top and dark pants, is standing on the left side of the frame next to a clothing rack. She reaches out and appears to be examining dark clothing items on the rack.
+*   **86.3s - 87.7s:** She pulls a dark piece of clothing off the hanger and holds it up in front of her, carefully inspecting it. Her movements are focused on this item. The tracking data for T1 shows her remaining stationary during this period, with `norm_area_delta` and `norm_speed` values close to zero.
+*   **88.0s - 91.0s:** The woman continues to handle the dark clothing item, seemingly folding or adjusting it in her hands. She keeps her attention on the item, looking down at it.
+*   **91.3s - 92.0s:** After handling the item, she is seen clearly placing the dark piece of clothing into her personal shoulder bag. This is the most significant and suspicious event in the sequence.
+*   **92.3s - 95.0s:** With the item now in her bag, she adjusts her bag and her posture, looking down towards her bag or hands. She no longer interacts with the clothing rack. She remains in essentially the same spot throughout this period.
+*   **Throughout the window:** In the background, other people are visible walking through the corridor, moving from left to right or standing further down the hall, their activities appearing normal for the environment.
+
+**Notable events:** The primary notable event is the woman placing a clothing item from the rack directly into her personal bag around **91.3s**. Given the context of a retail environment, this action, without any apparent intention to purchase (e.g., heading to a checkout or interacting with staff), is highly suspicious and suggests possible shoplifting. The tracking data confirms she remained stationary throughout this entire period of selection and concealment.

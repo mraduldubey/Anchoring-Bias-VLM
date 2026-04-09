@@ -1,0 +1,12 @@
+In this surveillance clip from a shopping corridor, a woman in a red sweatshirt and black pants is the central figure (T2).
+
+**Timeline of Events:**
+* **85.0s – 87.5s:** The woman (T2) is seen browsing through a rack of dark garments outside a shop called "Zoya Fashion" on the left side of the corridor. She is carrying a dark bag over her shoulder, which the system identifies as a combination of a handbag, backpack, or suitcase (O164, O203).
+* **88.7s:** She stops browsing and turns around to face the corridor.
+* **90.0s – 92.5s:** She stands in the middle of the hallway and looks at a cell phone (F3) in her hands.
+* **93.7s – 95.0s:** She puts the phone away and begins walking down the corridor away from the camera.
+
+**Environment and Other Detections:**
+* Two mannequins are present throughout the clip: one wearing a long maroon dress (T4) near the shop entrance and another in a pink traditional outfit (T1) further down the hall. 
+* Several other individuals are visible in the background, including two people (T170 and T171) walking away at the end of the corridor. 
+* The area is a typical commercial passage with a "CADD BIM CENTER" on the right and clothing displays on the left. No suspicious activity is observed during this window.

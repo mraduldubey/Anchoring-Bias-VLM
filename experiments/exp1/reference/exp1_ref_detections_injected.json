@@ -1,0 +1,44 @@
+[
+  {
+    "id": "T89",
+    "class": "person",
+    "conf": 0.52,
+    "present": "85.0s\u201395.0s",
+    "carrying": [],
+    "bbox": [
+      555,
+      100,
+      620,
+      300
+    ],
+    "_injected": true
+  },
+  {
+    "id": "O412",
+    "class": "handbag",
+    "conf": 0.47,
+    "present": "90.0s",
+    "carrying": [],
+    "bbox": [
+      150,
+      400,
+      210,
+      460
+    ],
+    "_injected": true
+  },
+  {
+    "id": "O87",
+    "class": "cell phone",
+    "conf": 0.44,
+    "present": "90.0s\u201393.0s",
+    "carrying": [],
+    "bbox": [
+      355,
+      300,
+      390,
+      330
+    ],
+    "_injected": true
+  }
+]

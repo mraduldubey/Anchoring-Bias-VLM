@@ -1,0 +1,82 @@
+{
+  "source": "yolov8l + botsort",
+  "note": "ML-generated.",
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s"
+  },
+  "detections": [
+    {
+      "id": "T1",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": [
+        "handbag",
+        "backpack",
+        "suitcase"
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "O164",
+      "class": "handbag",
+      "present": "90.0s"
+    },
+    {
+      "id": "O203",
+      "class": "suitcase",
+      "present": "90.0s"
+    },
+    {
+      "id": "O203",
+      "class": "handbag",
+      "present": "90.0s"
+    },
+    {
+      "id": "T89",
+      "class": "person",
+      "present": "85.0s\u201395.0s"
+    },
+    {
+      "id": "O412",
+      "class": "handbag",
+      "present": "90.0s"
+    },
+    {
+      "id": "O87",
+      "class": "cell phone",
+      "present": "90.0s\u201393.0s"
+    }
+  ],
+  "id_labels": {
+    "T1": "person",
+    "T2": "person",
+    "T4": "person",
+    "T170": "person",
+    "T171": "person",
+    "O164": "handbag",
+    "O203": "handbag",
+    "T89": "person",
+    "O412": "handbag",
+    "O87": "cell phone"
+  }
+}

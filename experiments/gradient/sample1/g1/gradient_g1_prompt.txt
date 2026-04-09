@@ -1,0 +1,59 @@
+You are analyzing a surveillance video.
+The grid image shows 10 uniformly-sampled frames from a 10.0s window (85.0s–95.0s), left-to-right, top-to-bottom, each timestamped.
+You are also given structured tracking data from a computer vision pipeline (YOLOv8 + BoT-SORT tracker).
+
+The tracking data contains person identities, time ranges, and items carried.
+
+The data is ML-generated and may have minor noise. Use the visual frames as ground truth when signals seem ambiguous.
+
+Tracking data:
+{
+  "mode": "gradient_g1",
+  "meta": {
+    "source": "yolov8l + botsort"
+  },
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s",
+    "duration_s": 10.0
+  },
+  "tracks": [
+    {
+      "id": "T1",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": [
+        "handbag",
+        "backpack",
+        "suitcase"
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "present": "85.0s\u201395.0s",
+      "carrying": []
+    }
+  ]
+}
+
+Describe what is happening in this window. Include timestamps.
+Focus on: what people are doing, what objects are present, notable events, any suspicious or significant activity.

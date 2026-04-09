@@ -1,0 +1,18 @@
+The surveillance video segment captures activity in a shop corridor between 85.0s and 95.0s.
+
+Here's a breakdown of the events:
+
+*   **85.0s – 86.2s:** A person, a woman wearing a red top (identified as **T2** in the detection data, present throughout the window), approaches the entrance of a shop on the left side of the corridor. She pauses at the entrance, seemingly looking inside. In the background, two other individuals (part of **T1**, **T4**, **T170**, **T171**) are seen walking away further down the corridor.
+*   **87.5s – 88.7s:** The woman in the red top (**T2**) steps fully into the shop. She bends down towards the floor, appearing to interact with an object. By 88.7s, she is standing upright inside the shop, holding what appears to be a large bag.
+*   **90.0s:** (Full-resolution frame) The woman in the red top (**T2**) is deeply inside the shop, bending down once again. She is interacting with a large bag on the floor. The computer vision pipeline detects this object as **O164** (handbag) and **O203** (both handbag and suitcase), indicating it's a substantial bag, possibly a large handbag or a small duffel/travel bag. She also appears to be holding a 'cell phone' (detected at 0.44 confidence). She seems to be organizing items within the bag or placing/retrieving something. Throughout this, a person in a pink dress (one of **T1**, **T4**, **T170**, **T171**) stands further down the corridor, and two men are visible in the distance.
+*   **91.2s – 92.5s:** After her interaction, the woman in the red top (**T2**) stands up, picks up the large bag (which the detection data confirms she is carrying: "handbag, backpack, suitcase"), and moves towards the shop's exit.
+*   **93.7s – 95.0s:** The woman (**T2**), now carrying the large bag, exits the shop and proceeds to walk away down the corridor, moving out of the camera's view.
+
+**Summary of Activity:**
+The primary activity involves a woman (T2) entering a shop, bending down to interact with a large bag (O164/O203), possibly organizing items or retrieving/placing something, and then picking up the bag and leaving the shop to continue down the corridor. Several other individuals (T1, T4, T170, T171) are present in the background but do not interact with the main subject.
+
+**Objects Present:**
+The main identifiable objects are the large bag (**O164/O203**) and potentially a 'cell phone' being handled by T2 at 90.0s. Mannequins are visible in the shops.
+
+**Suspicious or Significant Activity:**
+There is no clear indication of suspicious or illicit activity. The woman's actions appear to be consistent with someone managing their personal belongings (e.g., packing/unpacking a bag, or organizing contents) within a shop setting before proceeding. The ambiguity of the bag's classification (handbag/suitcase) suggests it might be a travel bag or a large shopping bag.

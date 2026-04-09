@@ -1,0 +1,15 @@
+This surveillance clip, spanning from 85.0s to 95.0s, shows activity in a shopping corridor between "DUYA FASHION ZONE" and "CADD BIM CENTRE." The primary focus is a woman in a red shirt and dark pants (T2), who is carrying a dark bag.
+
+### **Timeline of Events:**
+
+*   **85.0s – 86.2s:** The woman (T2) is standing on the left side of the hallway, close to a mannequin wearing a maroon dress (T4). She appears to be adjusting something near the base of the mannequin or her own belongings.
+*   **87.5s – 91.2s:** She moves away from the mannequin and walks toward the center of the hallway. At **90.0s**, she pauses briefly to check the contents of her bag or something in her hand before continuing to walk toward the camera.
+*   **92.5s – 95.0s:** She stops, turns around, and walks back toward her original position. By **95.0s**, she is back near the maroon dress mannequin (T4), again appearing to adjust her bag or the display.
+
+### **Other Entities Present:**
+
+*   **Mannequins:** Two mannequins are present throughout the clip. One is dressed in a long maroon gown on the left (T4), and another is dressed in a pink sari further down the hallway (T1). Although the detection system identifies them as persons, they remain stationary.
+*   **Background Pedestrians:** Two individuals (T170 and T171) are seen walking away from the camera at the far end of the corridor for the duration of the window.
+
+### **Observations:**
+The woman's (T2) behavior is notable for her repetitive back-and-forth movement within the same small area. She moves from the mannequin display into the hallway and then returns to the same spot twice within this 10-second window. While she appears to be browsing or waiting, her frequent checking of her bag and returning to the mannequin area is the most significant activity in the sequence.

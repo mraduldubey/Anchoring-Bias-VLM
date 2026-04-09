@@ -1,0 +1,12 @@
+In the surveillance video window from 85.0s to 95.0s, the primary focus is a woman (identified as T2) in the foreground, wearing a red long-sleeved top, dark pants, and a white face mask. She is carrying a dark (black) backpack.
+
+**Detailed Breakdown:**
+
+*   **85.0s - 86.2s:** The woman (T2) is initially seen bending down, appearing to be focused on the floor or an item near her feet, possibly interacting with her bag which is resting on the ground.
+*   **87.5s - 88.7s:** She slowly stands upright, holding the dark backpack. She is seen looking into the bag and adjusting its contents with her hands.
+*   **90.0s (Full Resolution Frame):** The woman (T2) is standing relatively still, looking down at the dark backpack, which is now on her left shoulder. Her right hand is near the opening of the bag, suggesting she is either putting something into it, taking something out, or adjusting items inside. In the background, a person (T1) in a distinctive light pink and patterned outfit, also wearing a face mask, walks from right to left across the corridor. Further back, two men (T4, T170, T171) are seen walking from left to right.
+*   **91.2s - 92.5s:** The woman (T2) remains focused on her backpack, still standing in the same area and interacting with its contents.
+*   **93.7s:** She finishes her interaction with the bag, stands fully upright, and looks forward, appearing to prepare to move.
+*   **95.0s:** The woman (T2) walks away from the camera, turning her back, still carrying the backpack.
+
+Throughout this window, the woman (T2) is primarily engaged in adjusting her belongings within her backpack. There are no suspicious activities or notable events beyond the regular movement of people in the background. The carried item is consistently identified as a dark backpack, though the detection data also categorized it as a handbag and suitcase.

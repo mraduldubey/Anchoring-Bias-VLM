@@ -1,0 +1,118 @@
+[
+  {
+    "id": "T1",
+    "class": "person",
+    "conf": 0.86,
+    "present": "85.0s\u201395.0s",
+    "carrying": [],
+    "bbox": [
+      485,
+      55,
+      539,
+      201
+    ],
+    "_injected": false
+  },
+  {
+    "id": "T2",
+    "class": "person",
+    "conf": 0.84,
+    "present": "85.0s\u201395.0s",
+    "carrying": [
+      "handbag",
+      "backpack",
+      "suitcase"
+    ],
+    "bbox": [
+      286,
+      265,
+      413,
+      475
+    ],
+    "_injected": false
+  },
+  {
+    "id": "T4",
+    "class": "person",
+    "conf": 0.5,
+    "present": "85.0s\u201395.0s",
+    "carrying": [],
+    "bbox": [
+      231,
+      55,
+      316,
+      239
+    ],
+    "_injected": false
+  },
+  {
+    "id": "T170",
+    "class": "person",
+    "conf": 0.86,
+    "present": "85.0s\u201395.0s",
+    "carrying": [],
+    "bbox": [
+      465,
+      22,
+      494,
+      109
+    ],
+    "_injected": false
+  },
+  {
+    "id": "T171",
+    "class": "person",
+    "conf": 0.87,
+    "present": "85.0s\u201395.0s",
+    "carrying": [],
+    "bbox": [
+      427,
+      19,
+      461,
+      105
+    ],
+    "_injected": false
+  },
+  {
+    "id": "O164",
+    "class": "handbag",
+    "conf": 0.88,
+    "present": "90.0s",
+    "carrying": [],
+    "bbox": [
+      304,
+      323,
+      392,
+      477
+    ],
+    "_injected": false
+  },
+  {
+    "id": "O203",
+    "class": "suitcase",
+    "conf": 0.4,
+    "present": "90.0s",
+    "carrying": [],
+    "bbox": [
+      333,
+      390,
+      419,
+      478
+    ],
+    "_injected": false
+  },
+  {
+    "id": "O203",
+    "class": "handbag",
+    "conf": 0.34,
+    "present": "90.0s",
+    "carrying": [],
+    "bbox": [
+      348,
+      384,
+      441,
+      471
+    ],
+    "_injected": false
+  }
+]

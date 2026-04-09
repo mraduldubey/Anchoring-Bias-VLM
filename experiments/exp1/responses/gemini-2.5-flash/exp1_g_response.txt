@@ -1,0 +1,18 @@
+In the surveillance video clip from 85.0s to 95.0s, the primary focus is on a person (identified as T2, wearing a red top) in the foreground, who appears to drop and then retrieve an item.
+
+Here is a detailed breakdown of the activity:
+
+*   **85.0s – 86.2s:** The person in red (T2) is initially seen standing on the left side of the aisle, facing a display and reaching out. Simultaneously, several other individuals (T1, T170, T171) are walking further down the corridor in the background, moving away from the camera.
+*   **87.5s – 88.7s:** T2 turns towards the right side of the aisle and appears to be looking into a shop entrance or display, with a bag visible on her shoulder.
+*   **90.0s:** T2 crouches down, facing towards the right. The full-resolution frame shows her interacting with objects on the floor near her feet. According to the detection data, a `handbag` (O164) and a larger `handbag`/`suitcase` (O203) are present next to her. Crucially, a `cell phone` (F3) is also detected as present between 90.0s and 93.0s, strongly suggesting that T2 is picking up a dropped cell phone.
+*   **91.2s – 92.5s:** T2 stands up, now visibly holding an object in her hands, confirming she has successfully retrieved the item from the floor.
+*   **93.7s – 95.0s:** T2 remains standing and begins to move forward and slightly to the left, continuing to hold the retrieved object low in her hands.
+
+**Objects Present and Notable Events:**
+
+*   The main event is **T2 dropping and retrieving an item**, identified as a `cell phone` (F3) by the detection pipeline, from the floor between 90.0s and 93.0s. She also has a `handbag` (O164) and a `suitcase` or `handbag` (O203) nearby at 90.0s.
+*   Other `person` detections (T1, T170, T171) are individuals walking in the background.
+*   Mannequins (T4, T89) are present as shop displays, though the pipeline identifies them as `person`.
+*   An empty red box (O412) is visible on the floor to the left at 90.0s.
+
+No suspicious or significant activity beyond the act of dropping and retrieving a personal item is observed.

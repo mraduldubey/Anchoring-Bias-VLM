@@ -1,0 +1,13 @@
+This video segment, spanning from 85.0s to 95.0s, captures activity within an indoor corridor, likely a shopping area.
+
+A person (T2), wearing a red top, dark pants, and a face mask, is the primary focus in the foreground, carrying a dark backpack/handbag.
+
+Here's a breakdown of the events:
+
+*   **85.0s - 86.2s:** The person (T2) is initially positioned on the left side of the frame. She is seen stooping down, seemingly interacting with something near her feet or on the floor. Her left arm is extended downwards.
+*   **87.5s - 88.7s:** T2 gradually straightens up, then begins to walk slowly towards the right side of the frame, still looking downwards. Her dark backpack/handbag remains on her left shoulder.
+*   **Around 90.0s:** T2 is centered in the foreground, holding a dark cell phone (F3, detected from 90.0s to 93.0s) in her hands and looking down at it. She continues to carry her backpack/handbag (O164, O203). In the background, several other individuals are visible walking away from the camera. Notably, a person (F1) in a distinctive pink outfit is seen walking further down the corridor.
+*   **91.2s:** T2 is still looking down, appearing to put away the cell phone as she continues walking to the right.
+*   **92.5s - 95.0s:** T2 has completed her interaction with the phone, which is no longer detected. She walks upright, looking forward, and continues moving towards the right side of the frame, eventually moving mostly out of view by 95.0s.
+
+Throughout the window, several other people (T1, T4, T170, T171, F1) are seen walking through the background of the corridor, generally moving away from the camera. No suspicious or significant activity, other than T2 initially stooping down and then engaging with her phone, is observed.

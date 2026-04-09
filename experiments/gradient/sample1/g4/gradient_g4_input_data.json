@@ -1,0 +1,4354 @@
+{
+  "mode": "gradient_g4",
+  "meta": {
+    "source": "yolov8l + botsort",
+    "cx_cy_meaning": "centroid pixel coordinates",
+    "norm_area_delta_meaning": "bbox area change per frame / bbox area (positive=approaching camera)",
+    "norm_speed_meaning": "centroid speed / frame diagonal (scale-invariant lateral speed)"
+  },
+  "window": {
+    "start": "85.0s",
+    "end": "95.0s",
+    "duration_s": 10.0
+  },
+  "tracks": [
+    {
+      "id": "T1",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 511.7,
+          "cy": 129.3,
+          "bbox_area": 8132.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.1s",
+          "cx": 511.8,
+          "cy": 129.3,
+          "bbox_area": 8119.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.2s",
+          "cx": 511.9,
+          "cy": 129.2,
+          "bbox_area": 8080.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.3s",
+          "cx": 511.9,
+          "cy": 129.0,
+          "bbox_area": 8073.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.4s",
+          "cx": 512.1,
+          "cy": 129.0,
+          "bbox_area": 8037.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.5s",
+          "cx": 512.1,
+          "cy": 129.0,
+          "bbox_area": 8037.0,
+          "norm_area_delta": 0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.6s",
+          "cx": 512.1,
+          "cy": 129.0,
+          "bbox_area": 8081.0,
+          "norm_area_delta": 0.0016,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.7s",
+          "cx": 512.4,
+          "cy": 129.0,
+          "bbox_area": 8081.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.8s",
+          "cx": 512.4,
+          "cy": 129.0,
+          "bbox_area": 8081.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.9s",
+          "cx": 512.1,
+          "cy": 129.0,
+          "bbox_area": 8164.0,
+          "norm_area_delta": 0.0032,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "86.0s",
+          "cx": 512.1,
+          "cy": 128.9,
+          "bbox_area": 8164.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.1s",
+          "cx": 512.1,
+          "cy": 128.7,
+          "bbox_area": 8094.0,
+          "norm_area_delta": -0.0005,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.2s",
+          "cx": 512.5,
+          "cy": 128.7,
+          "bbox_area": 8000.0,
+          "norm_area_delta": -0.0047,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.3s",
+          "cx": 512.7,
+          "cy": 128.7,
+          "bbox_area": 7954.0,
+          "norm_area_delta": -0.0028,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.4s",
+          "cx": 512.7,
+          "cy": 128.6,
+          "bbox_area": 7930.0,
+          "norm_area_delta": -0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.5s",
+          "cx": 513.0,
+          "cy": 128.6,
+          "bbox_area": 7840.0,
+          "norm_area_delta": -0.0072,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.6s",
+          "cx": 513.0,
+          "cy": 128.7,
+          "bbox_area": 7840.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.7s",
+          "cx": 512.9,
+          "cy": 128.8,
+          "bbox_area": 7863.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.8s",
+          "cx": 512.9,
+          "cy": 128.7,
+          "bbox_area": 7834.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.9s",
+          "cx": 512.8,
+          "cy": 128.8,
+          "bbox_area": 7851.0,
+          "norm_area_delta": 0.0022,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.0s",
+          "cx": 512.7,
+          "cy": 128.8,
+          "bbox_area": 7918.0,
+          "norm_area_delta": 0.0017,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.1s",
+          "cx": 512.7,
+          "cy": 128.8,
+          "bbox_area": 7923.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.2s",
+          "cx": 512.6,
+          "cy": 128.8,
+          "bbox_area": 7925.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.3s",
+          "cx": 512.4,
+          "cy": 128.7,
+          "bbox_area": 7969.0,
+          "norm_area_delta": 0.0026,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "87.4s",
+          "cx": 512.4,
+          "cy": 128.5,
+          "bbox_area": 7969.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.5s",
+          "cx": 512.6,
+          "cy": 128.4,
+          "bbox_area": 7933.0,
+          "norm_area_delta": -0.0019,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.6s",
+          "cx": 512.7,
+          "cy": 128.3,
+          "bbox_area": 7931.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.7s",
+          "cx": 512.6,
+          "cy": 128.3,
+          "bbox_area": 7922.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.8s",
+          "cx": 512.4,
+          "cy": 128.4,
+          "bbox_area": 7913.0,
+          "norm_area_delta": -0.0015,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.9s",
+          "cx": 512.4,
+          "cy": 128.5,
+          "bbox_area": 7896.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.0s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7939.0,
+          "norm_area_delta": 0.0013,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.1s",
+          "cx": 512.5,
+          "cy": 128.8,
+          "bbox_area": 8019.0,
+          "norm_area_delta": 0.001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.2s",
+          "cx": 512.8,
+          "cy": 128.7,
+          "bbox_area": 8019.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.3s",
+          "cx": 513.0,
+          "cy": 128.6,
+          "bbox_area": 7943.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.4s",
+          "cx": 513.0,
+          "cy": 128.6,
+          "bbox_area": 7964.0,
+          "norm_area_delta": 0.0014,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.5s",
+          "cx": 513.0,
+          "cy": 128.6,
+          "bbox_area": 7988.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.6s",
+          "cx": 513.0,
+          "cy": 128.6,
+          "bbox_area": 7980.0,
+          "norm_area_delta": -0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.7s",
+          "cx": 512.9,
+          "cy": 128.8,
+          "bbox_area": 7926.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.8s",
+          "cx": 512.8,
+          "cy": 128.9,
+          "bbox_area": 7919.0,
+          "norm_area_delta": 0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.9s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7919.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.0s",
+          "cx": 512.5,
+          "cy": 128.9,
+          "bbox_area": 7939.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.1s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7856.0,
+          "norm_area_delta": -0.0053,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.2s",
+          "cx": 512.5,
+          "cy": 128.5,
+          "bbox_area": 7765.0,
+          "norm_area_delta": -0.0071,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.3s",
+          "cx": 512.6,
+          "cy": 128.5,
+          "bbox_area": 7765.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.4s",
+          "cx": 512.6,
+          "cy": 128.5,
+          "bbox_area": 7792.0,
+          "norm_area_delta": 0.0012,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.5s",
+          "cx": 512.6,
+          "cy": 128.6,
+          "bbox_area": 7792.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.6s",
+          "cx": 512.6,
+          "cy": 128.4,
+          "bbox_area": 7806.0,
+          "norm_area_delta": 0.0001,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.7s",
+          "cx": 512.5,
+          "cy": 128.4,
+          "bbox_area": 7840.0,
+          "norm_area_delta": 0.0001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.8s",
+          "cx": 512.2,
+          "cy": 128.5,
+          "bbox_area": 7949.0,
+          "norm_area_delta": 0.0038,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.9s",
+          "cx": 512.1,
+          "cy": 128.5,
+          "bbox_area": 7959.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 512.2,
+          "cy": 128.5,
+          "bbox_area": 7971.0,
+          "norm_area_delta": 0.0015,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.1s",
+          "cx": 512.3,
+          "cy": 128.7,
+          "bbox_area": 7967.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.2s",
+          "cx": 512.4,
+          "cy": 128.7,
+          "bbox_area": 7967.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.3s",
+          "cx": 512.5,
+          "cy": 128.7,
+          "bbox_area": 7941.0,
+          "norm_area_delta": -0.0022,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.4s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7941.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.5s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7946.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.6s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7956.0,
+          "norm_area_delta": 0.0003,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.7s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 7956.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.8s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7860.0,
+          "norm_area_delta": -0.0079,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.9s",
+          "cx": 512.9,
+          "cy": 128.9,
+          "bbox_area": 7813.0,
+          "norm_area_delta": -0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.0s",
+          "cx": 512.8,
+          "cy": 128.9,
+          "bbox_area": 7804.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.1s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7804.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.2s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7814.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.3s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7831.0,
+          "norm_area_delta": 0.0011,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.4s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7859.0,
+          "norm_area_delta": 0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.5s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7861.0,
+          "norm_area_delta": 0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.6s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7866.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.7s",
+          "cx": 512.7,
+          "cy": 128.9,
+          "bbox_area": 7865.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.8s",
+          "cx": 512.8,
+          "cy": 129.0,
+          "bbox_area": 7883.0,
+          "norm_area_delta": 0.0022,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.9s",
+          "cx": 512.6,
+          "cy": 129.1,
+          "bbox_area": 7932.0,
+          "norm_area_delta": 0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.0s",
+          "cx": 512.6,
+          "cy": 129.0,
+          "bbox_area": 7972.0,
+          "norm_area_delta": 0.0008,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.1s",
+          "cx": 512.7,
+          "cy": 129.0,
+          "bbox_area": 7991.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.2s",
+          "cx": 512.8,
+          "cy": 129.0,
+          "bbox_area": 7975.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.3s",
+          "cx": 512.8,
+          "cy": 129.0,
+          "bbox_area": 7938.0,
+          "norm_area_delta": -0.0001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.4s",
+          "cx": 512.7,
+          "cy": 129.0,
+          "bbox_area": 7933.0,
+          "norm_area_delta": 0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 512.7,
+          "cy": 129.1,
+          "bbox_area": 7948.0,
+          "norm_area_delta": 0.0012,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.6s",
+          "cx": 512.5,
+          "cy": 129.0,
+          "bbox_area": 7999.0,
+          "norm_area_delta": 0.0016,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.7s",
+          "cx": 512.5,
+          "cy": 128.9,
+          "bbox_area": 8039.0,
+          "norm_area_delta": 0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.8s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 8037.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.9s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 8024.0,
+          "norm_area_delta": -0.0001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.0s",
+          "cx": 512.4,
+          "cy": 128.8,
+          "bbox_area": 8013.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.1s",
+          "cx": 512.4,
+          "cy": 128.9,
+          "bbox_area": 7955.0,
+          "norm_area_delta": -0.0016,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.2s",
+          "cx": 512.4,
+          "cy": 128.9,
+          "bbox_area": 7955.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.3s",
+          "cx": 512.4,
+          "cy": 128.9,
+          "bbox_area": 7970.0,
+          "norm_area_delta": 0.0005,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.4s",
+          "cx": 512.4,
+          "cy": 129.1,
+          "bbox_area": 7970.0,
+          "norm_area_delta": -0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.5s",
+          "cx": 512.4,
+          "cy": 129.1,
+          "bbox_area": 7974.0,
+          "norm_area_delta": 0.0003,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.6s",
+          "cx": 512.6,
+          "cy": 129.1,
+          "bbox_area": 7974.0,
+          "norm_area_delta": 0.0005,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.7s",
+          "cx": 512.7,
+          "cy": 129.1,
+          "bbox_area": 7993.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.8s",
+          "cx": 512.7,
+          "cy": 129.1,
+          "bbox_area": 7993.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.9s",
+          "cx": 512.7,
+          "cy": 129.1,
+          "bbox_area": 8000.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.0s",
+          "cx": 512.7,
+          "cy": 129.2,
+          "bbox_area": 8044.0,
+          "norm_area_delta": 0.0055,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.1s",
+          "cx": 512.6,
+          "cy": 129.3,
+          "bbox_area": 8058.0,
+          "norm_area_delta": 0.0014,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.2s",
+          "cx": 512.6,
+          "cy": 129.3,
+          "bbox_area": 8061.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.3s",
+          "cx": 512.7,
+          "cy": 129.3,
+          "bbox_area": 8061.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.4s",
+          "cx": 512.8,
+          "cy": 129.3,
+          "bbox_area": 8056.0,
+          "norm_area_delta": -0.0001,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.5s",
+          "cx": 512.8,
+          "cy": 129.3,
+          "bbox_area": 8051.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.6s",
+          "cx": 512.8,
+          "cy": 129.2,
+          "bbox_area": 8036.0,
+          "norm_area_delta": -0.0006,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.7s",
+          "cx": 512.6,
+          "cy": 129.2,
+          "bbox_area": 8017.0,
+          "norm_area_delta": -0.0005,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.8s",
+          "cx": 512.6,
+          "cy": 129.2,
+          "bbox_area": 8008.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.9s",
+          "cx": 512.8,
+          "cy": 129.0,
+          "bbox_area": 8067.0,
+          "norm_area_delta": 0.0073,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "95.0s",
+          "cx": 512.8,
+          "cy": 128.9,
+          "bbox_area": 8105.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 266.8,
+          "cy": 356.7,
+          "bbox_area": 43397.0,
+          "norm_area_delta": -0.0117,
+          "norm_speed": 0.0007,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.1s",
+          "cx": 268.9,
+          "cy": 358.0,
+          "bbox_area": 41513.0,
+          "norm_area_delta": -0.0112,
+          "norm_speed": 0.0006,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.2s",
+          "cx": 270.7,
+          "cy": 359.9,
+          "bbox_area": 39435.0,
+          "norm_area_delta": -0.0343,
+          "norm_speed": 0.0018,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.3s",
+          "cx": 274.9,
+          "cy": 360.4,
+          "bbox_area": 37015.0,
+          "norm_area_delta": -0.0141,
+          "norm_speed": 0.001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.4s",
+          "cx": 277.3,
+          "cy": 360.5,
+          "bbox_area": 35609.0,
+          "norm_area_delta": -0.0152,
+          "norm_speed": 0.001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.5s",
+          "cx": 278.2,
+          "cy": 360.6,
+          "bbox_area": 34291.0,
+          "norm_area_delta": -0.0087,
+          "norm_speed": 0.0001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.6s",
+          "cx": 278.2,
+          "cy": 360.6,
+          "bbox_area": 34223.0,
+          "norm_area_delta": -0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.7s",
+          "cx": 278.2,
+          "cy": 360.7,
+          "bbox_area": 34225.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.8s",
+          "cx": 275.3,
+          "cy": 360.2,
+          "bbox_area": 34873.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0008,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "85.9s",
+          "cx": 275.3,
+          "cy": 359.0,
+          "bbox_area": 34750.0,
+          "norm_area_delta": -0.0035,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.0s",
+          "cx": 279.1,
+          "cy": 358.7,
+          "bbox_area": 32978.0,
+          "norm_area_delta": -0.0318,
+          "norm_speed": 0.0024,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.1s",
+          "cx": 281.7,
+          "cy": 358.7,
+          "bbox_area": 32721.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0012,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.2s",
+          "cx": 285.7,
+          "cy": 360.1,
+          "bbox_area": 33647.0,
+          "norm_area_delta": 0.0119,
+          "norm_speed": 0.001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.3s",
+          "cx": 291.0,
+          "cy": 361.5,
+          "bbox_area": 36108.0,
+          "norm_area_delta": 0.0244,
+          "norm_speed": 0.0011,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.4s",
+          "cx": 291.0,
+          "cy": 361.7,
+          "bbox_area": 36108.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.5s",
+          "cx": 286.7,
+          "cy": 362.1,
+          "bbox_area": 34940.0,
+          "norm_area_delta": -0.0241,
+          "norm_speed": 0.0019,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.6s",
+          "cx": 285.4,
+          "cy": 362.2,
+          "bbox_area": 34940.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.7s",
+          "cx": 284.9,
+          "cy": 361.9,
+          "bbox_area": 36370.0,
+          "norm_area_delta": 0.0225,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.8s",
+          "cx": 284.7,
+          "cy": 361.8,
+          "bbox_area": 36430.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "86.9s",
+          "cx": 287.8,
+          "cy": 361.6,
+          "bbox_area": 34965.0,
+          "norm_area_delta": -0.0414,
+          "norm_speed": 0.0029,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.0s",
+          "cx": 289.8,
+          "cy": 361.6,
+          "bbox_area": 33790.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.1s",
+          "cx": 289.0,
+          "cy": 361.7,
+          "bbox_area": 33917.0,
+          "norm_area_delta": 0.0037,
+          "norm_speed": 0.0008,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.2s",
+          "cx": 289.0,
+          "cy": 361.9,
+          "bbox_area": 33917.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.3s",
+          "cx": 291.0,
+          "cy": 361.9,
+          "bbox_area": 32136.0,
+          "norm_area_delta": -0.016,
+          "norm_speed": 0.0007,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.4s",
+          "cx": 292.9,
+          "cy": 361.4,
+          "bbox_area": 30864.0,
+          "norm_area_delta": -0.0093,
+          "norm_speed": 0.0005,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.5s",
+          "cx": 296.8,
+          "cy": 361.4,
+          "bbox_area": 29381.0,
+          "norm_area_delta": -0.0049,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.6s",
+          "cx": 296.8,
+          "cy": 361.4,
+          "bbox_area": 29381.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.7s",
+          "cx": 295.6,
+          "cy": 360.8,
+          "bbox_area": 30579.0,
+          "norm_area_delta": 0.012,
+          "norm_speed": 0.0002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.8s",
+          "cx": 295.5,
+          "cy": 360.7,
+          "bbox_area": 30863.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "87.9s",
+          "cx": 296.5,
+          "cy": 360.2,
+          "bbox_area": 30568.0,
+          "norm_area_delta": -0.0096,
+          "norm_speed": 0.0011,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.0s",
+          "cx": 296.5,
+          "cy": 360.1,
+          "bbox_area": 30568.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.1s",
+          "cx": 296.4,
+          "cy": 360.2,
+          "bbox_area": 30669.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.2s",
+          "cx": 297.6,
+          "cy": 360.2,
+          "bbox_area": 30330.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.3s",
+          "cx": 297.9,
+          "cy": 360.0,
+          "bbox_area": 30592.0,
+          "norm_area_delta": 0.0085,
+          "norm_speed": 0.0002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.4s",
+          "cx": 298.0,
+          "cy": 359.6,
+          "bbox_area": 30627.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.5s",
+          "cx": 299.3,
+          "cy": 358.4,
+          "bbox_area": 30166.0,
+          "norm_area_delta": -0.0073,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.6s",
+          "cx": 299.4,
+          "cy": 358.4,
+          "bbox_area": 29898.0,
+          "norm_area_delta": -0.002,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.7s",
+          "cx": 300.4,
+          "cy": 358.4,
+          "bbox_area": 29379.0,
+          "norm_area_delta": -0.0081,
+          "norm_speed": 0.0009,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.8s",
+          "cx": 302.9,
+          "cy": 358.5,
+          "bbox_area": 28563.0,
+          "norm_area_delta": -0.0107,
+          "norm_speed": 0.0011,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "88.9s",
+          "cx": 304.8,
+          "cy": 358.9,
+          "bbox_area": 28563.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.0s",
+          "cx": 307.1,
+          "cy": 360.4,
+          "bbox_area": 28523.0,
+          "norm_area_delta": -0.0006,
+          "norm_speed": 0.0015,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.1s",
+          "cx": 308.5,
+          "cy": 362.1,
+          "bbox_area": 28409.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.2s",
+          "cx": 312.4,
+          "cy": 364.9,
+          "bbox_area": 28710.0,
+          "norm_area_delta": 0.0105,
+          "norm_speed": 0.0027,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.3s",
+          "cx": 315.3,
+          "cy": 365.6,
+          "bbox_area": 28820.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.4s",
+          "cx": 320.4,
+          "cy": 367.2,
+          "bbox_area": 28467.0,
+          "norm_area_delta": -0.0102,
+          "norm_speed": 0.0029,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.5s",
+          "cx": 323.6,
+          "cy": 367.9,
+          "bbox_area": 28353.0,
+          "norm_area_delta": -0.004,
+          "norm_speed": 0.0006,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.6s",
+          "cx": 328.2,
+          "cy": 368.9,
+          "bbox_area": 28187.0,
+          "norm_area_delta": -0.0027,
+          "norm_speed": 0.0035,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.7s",
+          "cx": 334.4,
+          "cy": 369.4,
+          "bbox_area": 27370.0,
+          "norm_area_delta": -0.0044,
+          "norm_speed": 0.0013,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.8s",
+          "cx": 340.9,
+          "cy": 369.9,
+          "bbox_area": 27109.0,
+          "norm_area_delta": -0.0068,
+          "norm_speed": 0.0032,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "89.9s",
+          "cx": 344.5,
+          "cy": 370.2,
+          "bbox_area": 27027.0,
+          "norm_area_delta": -0.002,
+          "norm_speed": 0.0006,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.0s",
+          "cx": 350.1,
+          "cy": 370.4,
+          "bbox_area": 27067.0,
+          "norm_area_delta": 0.0046,
+          "norm_speed": 0.0031,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.1s",
+          "cx": 352.9,
+          "cy": 370.4,
+          "bbox_area": 27194.0,
+          "norm_area_delta": 0.0016,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.2s",
+          "cx": 362.0,
+          "cy": 369.8,
+          "bbox_area": 27332.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0051,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.3s",
+          "cx": 367.2,
+          "cy": 369.4,
+          "bbox_area": 27358.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0008,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.4s",
+          "cx": 373.8,
+          "cy": 369.0,
+          "bbox_area": 28365.0,
+          "norm_area_delta": 0.0331,
+          "norm_speed": 0.0037,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.5s",
+          "cx": 378.3,
+          "cy": 368.7,
+          "bbox_area": 29603.0,
+          "norm_area_delta": 0.0084,
+          "norm_speed": 0.0008,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.6s",
+          "cx": 388.4,
+          "cy": 367.8,
+          "bbox_area": 29603.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0066,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.7s",
+          "cx": 400.9,
+          "cy": 367.4,
+          "bbox_area": 29236.0,
+          "norm_area_delta": -0.0033,
+          "norm_speed": 0.0028,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.8s",
+          "cx": 413.9,
+          "cy": 366.9,
+          "bbox_area": 29064.0,
+          "norm_area_delta": -0.0,
+          "norm_speed": 0.0052,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "90.9s",
+          "cx": 419.9,
+          "cy": 366.7,
+          "bbox_area": 29064.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.0s",
+          "cx": 425.5,
+          "cy": 366.6,
+          "bbox_area": 29731.0,
+          "norm_area_delta": 0.0005,
+          "norm_speed": 0.0029
+        },
+        {
+          "t": "91.1s",
+          "cx": 427.0,
+          "cy": 365.9,
+          "bbox_area": 29929.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.2s",
+          "cx": 426.7,
+          "cy": 364.1,
+          "bbox_area": 31273.0,
+          "norm_area_delta": 0.0168,
+          "norm_speed": 0.0008
+        },
+        {
+          "t": "91.3s",
+          "cx": 426.3,
+          "cy": 363.2,
+          "bbox_area": 31751.0,
+          "norm_area_delta": 0.0025,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.4s",
+          "cx": 425.2,
+          "cy": 361.4,
+          "bbox_area": 31975.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0017,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.5s",
+          "cx": 424.3,
+          "cy": 359.8,
+          "bbox_area": 31656.0,
+          "norm_area_delta": -0.0034,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.6s",
+          "cx": 421.7,
+          "cy": 359.1,
+          "bbox_area": 31334.0,
+          "norm_area_delta": -0.0041,
+          "norm_speed": 0.002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.7s",
+          "cx": 420.1,
+          "cy": 359.1,
+          "bbox_area": 30703.0,
+          "norm_area_delta": -0.0052,
+          "norm_speed": 0.0002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.8s",
+          "cx": 417.9,
+          "cy": 360.9,
+          "bbox_area": 30340.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0011,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "91.9s",
+          "cx": 416.8,
+          "cy": 362.4,
+          "bbox_area": 30378.0,
+          "norm_area_delta": 0.0012,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.0s",
+          "cx": 417.8,
+          "cy": 364.7,
+          "bbox_area": 30569.0,
+          "norm_area_delta": 0.0042,
+          "norm_speed": 0.0016,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.1s",
+          "cx": 421.5,
+          "cy": 367.1,
+          "bbox_area": 30707.0,
+          "norm_area_delta": 0.0022,
+          "norm_speed": 0.0029,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.2s",
+          "cx": 424.0,
+          "cy": 368.2,
+          "bbox_area": 30948.0,
+          "norm_area_delta": 0.0025,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.3s",
+          "cx": 426.4,
+          "cy": 370.3,
+          "bbox_area": 31821.0,
+          "norm_area_delta": 0.0076,
+          "norm_speed": 0.0013,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.4s",
+          "cx": 429.9,
+          "cy": 371.8,
+          "bbox_area": 32141.0,
+          "norm_area_delta": 0.0018,
+          "norm_speed": 0.0009,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.5s",
+          "cx": 432.0,
+          "cy": 372.8,
+          "bbox_area": 32680.0,
+          "norm_area_delta": 0.0047,
+          "norm_speed": 0.0009,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.6s",
+          "cx": 433.7,
+          "cy": 373.9,
+          "bbox_area": 32902.0,
+          "norm_area_delta": 0.0011,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.7s",
+          "cx": 433.8,
+          "cy": 375.3,
+          "bbox_area": 32946.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.8s",
+          "cx": 433.1,
+          "cy": 375.3,
+          "bbox_area": 32821.0,
+          "norm_area_delta": -0.0015,
+          "norm_speed": 0.0003,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "92.9s",
+          "cx": 429.3,
+          "cy": 372.8,
+          "bbox_area": 32725.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0026,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.0s",
+          "cx": 426.4,
+          "cy": 369.2,
+          "bbox_area": 33080.0,
+          "norm_area_delta": 0.0037,
+          "norm_speed": 0.001,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.1s",
+          "cx": 422.0,
+          "cy": 364.5,
+          "bbox_area": 33742.0,
+          "norm_area_delta": 0.0138,
+          "norm_speed": 0.0037,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.2s",
+          "cx": 415.7,
+          "cy": 361.0,
+          "bbox_area": 35301.0,
+          "norm_area_delta": 0.0031,
+          "norm_speed": 0.0016,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.3s",
+          "cx": 413.4,
+          "cy": 358.5,
+          "bbox_area": 35301.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0009,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.4s",
+          "cx": 407.9,
+          "cy": 357.2,
+          "bbox_area": 32253.0,
+          "norm_area_delta": -0.0229,
+          "norm_speed": 0.0016,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.5s",
+          "cx": 401.3,
+          "cy": 356.4,
+          "bbox_area": 28331.0,
+          "norm_area_delta": -0.0611,
+          "norm_speed": 0.0018,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.6s",
+          "cx": 397.8,
+          "cy": 355.3,
+          "bbox_area": 27629.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0009,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.7s",
+          "cx": 384.8,
+          "cy": 354.1,
+          "bbox_area": 30349.0,
+          "norm_area_delta": 0.0896,
+          "norm_speed": 0.0068,
+          "carrying": [
+            "backpack"
+          ]
+        },
+        {
+          "t": "93.8s",
+          "cx": 376.6,
+          "cy": 353.9,
+          "bbox_area": 33614.0,
+          "norm_area_delta": 0.0212,
+          "norm_speed": 0.002,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "93.9s",
+          "cx": 369.0,
+          "cy": 353.1,
+          "bbox_area": 37023.0,
+          "norm_area_delta": 0.0289,
+          "norm_speed": 0.0024,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "94.0s",
+          "cx": 357.8,
+          "cy": 353.9,
+          "bbox_area": 41727.0,
+          "norm_area_delta": 0.0566,
+          "norm_speed": 0.0058,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "94.1s",
+          "cx": 357.8,
+          "cy": 354.9,
+          "bbox_area": 41727.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "94.2s",
+          "cx": 360.8,
+          "cy": 355.1,
+          "bbox_area": 39762.0,
+          "norm_area_delta": -0.001,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "94.3s",
+          "cx": 360.3,
+          "cy": 355.2,
+          "bbox_area": 39751.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "94.4s",
+          "cx": 354.1,
+          "cy": 355.2,
+          "bbox_area": 41993.0,
+          "norm_area_delta": 0.0143,
+          "norm_speed": 0.0015
+        },
+        {
+          "t": "94.5s",
+          "cx": 349.7,
+          "cy": 355.2,
+          "bbox_area": 43249.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.6s",
+          "cx": 350.3,
+          "cy": 355.2,
+          "bbox_area": 40197.0,
+          "norm_area_delta": -0.0216,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.7s",
+          "cx": 346.6,
+          "cy": 354.2,
+          "bbox_area": 36735.0,
+          "norm_area_delta": -0.0229,
+          "norm_speed": 0.0039
+        },
+        {
+          "t": "94.8s",
+          "cx": 346.6,
+          "cy": 353.8,
+          "bbox_area": 33940.0,
+          "norm_area_delta": -0.0064,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "94.9s",
+          "cx": 347.0,
+          "cy": 353.8,
+          "bbox_area": 31359.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0,
+          "carrying": [
+            "handbag"
+          ]
+        },
+        {
+          "t": "95.0s",
+          "cx": 343.7,
+          "cy": 354.0,
+          "bbox_area": 34042.0,
+          "norm_area_delta": 0.0281,
+          "norm_speed": 0.0013,
+          "carrying": [
+            "handbag"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 273.8,
+          "cy": 145.3,
+          "bbox_area": 15055.0,
+          "norm_area_delta": -0.0008,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.1s",
+          "cx": 273.8,
+          "cy": 145.3,
+          "bbox_area": 15055.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.3s",
+          "cx": 273.8,
+          "cy": 145.8,
+          "bbox_area": 15122.0,
+          "norm_area_delta": 0.0019,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "85.4s",
+          "cx": 273.8,
+          "cy": 145.9,
+          "bbox_area": 15148.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.5s",
+          "cx": 273.8,
+          "cy": 146.3,
+          "bbox_area": 15252.0,
+          "norm_area_delta": 0.0032,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.6s",
+          "cx": 273.8,
+          "cy": 146.4,
+          "bbox_area": 15299.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.7s",
+          "cx": 273.7,
+          "cy": 146.3,
+          "bbox_area": 15299.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.8s",
+          "cx": 273.6,
+          "cy": 146.4,
+          "bbox_area": 15328.0,
+          "norm_area_delta": 0.0019,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.9s",
+          "cx": 273.6,
+          "cy": 146.4,
+          "bbox_area": 15343.0,
+          "norm_area_delta": 0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.0s",
+          "cx": 273.7,
+          "cy": 146.7,
+          "bbox_area": 15360.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.1s",
+          "cx": 273.7,
+          "cy": 146.5,
+          "bbox_area": 15274.0,
+          "norm_area_delta": -0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.2s",
+          "cx": 273.7,
+          "cy": 146.7,
+          "bbox_area": 15274.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "86.3s",
+          "cx": 273.7,
+          "cy": 147.2,
+          "bbox_area": 15356.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.4s",
+          "cx": 273.7,
+          "cy": 147.3,
+          "bbox_area": 15341.0,
+          "norm_area_delta": -0.0009,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.5s",
+          "cx": 273.7,
+          "cy": 147.2,
+          "bbox_area": 15300.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.6s",
+          "cx": 273.7,
+          "cy": 147.2,
+          "bbox_area": 15223.0,
+          "norm_area_delta": -0.0005,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.7s",
+          "cx": 273.7,
+          "cy": 147.1,
+          "bbox_area": 15206.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.8s",
+          "cx": 273.8,
+          "cy": 147.2,
+          "bbox_area": 15287.0,
+          "norm_area_delta": 0.0053,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "86.9s",
+          "cx": 273.8,
+          "cy": 147.7,
+          "bbox_area": 15336.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.0s",
+          "cx": 273.8,
+          "cy": 147.2,
+          "bbox_area": 15253.0,
+          "norm_area_delta": -0.0055,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "87.1s",
+          "cx": 273.9,
+          "cy": 146.7,
+          "bbox_area": 15192.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.2s",
+          "cx": 273.9,
+          "cy": 146.5,
+          "bbox_area": 15178.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.3s",
+          "cx": 273.8,
+          "cy": 146.5,
+          "bbox_area": 15205.0,
+          "norm_area_delta": 0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.4s",
+          "cx": 273.7,
+          "cy": 146.7,
+          "bbox_area": 15239.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.5s",
+          "cx": 273.7,
+          "cy": 147.0,
+          "bbox_area": 15287.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.6s",
+          "cx": 273.6,
+          "cy": 147.1,
+          "bbox_area": 15302.0,
+          "norm_area_delta": 0.0003,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.7s",
+          "cx": 273.7,
+          "cy": 147.1,
+          "bbox_area": 15287.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.8s",
+          "cx": 273.7,
+          "cy": 147.0,
+          "bbox_area": 15265.0,
+          "norm_area_delta": -0.0015,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.9s",
+          "cx": 273.7,
+          "cy": 146.9,
+          "bbox_area": 15257.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.0s",
+          "cx": 273.8,
+          "cy": 147.2,
+          "bbox_area": 15291.0,
+          "norm_area_delta": 0.0009,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.1s",
+          "cx": 274.0,
+          "cy": 147.3,
+          "bbox_area": 15433.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.2s",
+          "cx": 274.0,
+          "cy": 147.3,
+          "bbox_area": 15388.0,
+          "norm_area_delta": -0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.3s",
+          "cx": 274.0,
+          "cy": 147.3,
+          "bbox_area": 15367.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.4s",
+          "cx": 273.9,
+          "cy": 148.1,
+          "bbox_area": 15455.0,
+          "norm_area_delta": 0.0056,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "88.5s",
+          "cx": 273.9,
+          "cy": 149.2,
+          "bbox_area": 15612.0,
+          "norm_area_delta": 0.002,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "88.6s",
+          "cx": 273.9,
+          "cy": 149.6,
+          "bbox_area": 15674.0,
+          "norm_area_delta": 0.0022,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "88.7s",
+          "cx": 273.9,
+          "cy": 149.7,
+          "bbox_area": 15701.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.8s",
+          "cx": 274.1,
+          "cy": 149.5,
+          "bbox_area": 15690.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.9s",
+          "cx": 274.1,
+          "cy": 148.4,
+          "bbox_area": 15530.0,
+          "norm_area_delta": -0.0036,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "89.0s",
+          "cx": 274.1,
+          "cy": 148.4,
+          "bbox_area": 15530.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.1s",
+          "cx": 274.0,
+          "cy": 148.7,
+          "bbox_area": 15592.0,
+          "norm_area_delta": 0.0027,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.2s",
+          "cx": 274.0,
+          "cy": 149.0,
+          "bbox_area": 15667.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.3s",
+          "cx": 274.0,
+          "cy": 148.4,
+          "bbox_area": 15589.0,
+          "norm_area_delta": -0.005,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "89.4s",
+          "cx": 274.0,
+          "cy": 148.4,
+          "bbox_area": 15589.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.5s",
+          "cx": 274.0,
+          "cy": 148.4,
+          "bbox_area": 15669.0,
+          "norm_area_delta": 0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.6s",
+          "cx": 274.0,
+          "cy": 148.4,
+          "bbox_area": 15723.0,
+          "norm_area_delta": 0.0011,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.7s",
+          "cx": 273.9,
+          "cy": 148.4,
+          "bbox_area": 15723.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.8s",
+          "cx": 273.9,
+          "cy": 148.3,
+          "bbox_area": 15692.0,
+          "norm_area_delta": -0.0003,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.9s",
+          "cx": 273.9,
+          "cy": 148.2,
+          "bbox_area": 15684.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.0s",
+          "cx": 273.9,
+          "cy": 148.0,
+          "bbox_area": 15639.0,
+          "norm_area_delta": -0.0011,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.1s",
+          "cx": 273.8,
+          "cy": 148.0,
+          "bbox_area": 15542.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.2s",
+          "cx": 273.8,
+          "cy": 148.1,
+          "bbox_area": 15542.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.3s",
+          "cx": 273.8,
+          "cy": 148.1,
+          "bbox_area": 15622.0,
+          "norm_area_delta": 0.0028,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.4s",
+          "cx": 273.8,
+          "cy": 148.1,
+          "bbox_area": 15622.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.5s",
+          "cx": 273.8,
+          "cy": 147.9,
+          "bbox_area": 15587.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.6s",
+          "cx": 273.8,
+          "cy": 147.9,
+          "bbox_area": 15590.0,
+          "norm_area_delta": 0.0002,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.7s",
+          "cx": 273.8,
+          "cy": 148.1,
+          "bbox_area": 15593.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.8s",
+          "cx": 273.8,
+          "cy": 148.2,
+          "bbox_area": 15584.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.9s",
+          "cx": 273.8,
+          "cy": 147.8,
+          "bbox_area": 15512.0,
+          "norm_area_delta": -0.0039,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "91.0s",
+          "cx": 273.8,
+          "cy": 147.7,
+          "bbox_area": 15495.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.1s",
+          "cx": 273.7,
+          "cy": 148.1,
+          "bbox_area": 15507.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "91.2s",
+          "cx": 273.7,
+          "cy": 148.3,
+          "bbox_area": 15539.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.3s",
+          "cx": 273.7,
+          "cy": 148.3,
+          "bbox_area": 15526.0,
+          "norm_area_delta": 0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.4s",
+          "cx": 273.7,
+          "cy": 148.3,
+          "bbox_area": 15507.0,
+          "norm_area_delta": -0.0004,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.5s",
+          "cx": 273.7,
+          "cy": 148.1,
+          "bbox_area": 15470.0,
+          "norm_area_delta": -0.001,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.6s",
+          "cx": 273.7,
+          "cy": 148.0,
+          "bbox_area": 15452.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.7s",
+          "cx": 273.8,
+          "cy": 147.9,
+          "bbox_area": 15449.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.8s",
+          "cx": 273.8,
+          "cy": 147.8,
+          "bbox_area": 15438.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.9s",
+          "cx": 273.8,
+          "cy": 147.6,
+          "bbox_area": 15352.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.0s",
+          "cx": 273.9,
+          "cy": 147.4,
+          "bbox_area": 15329.0,
+          "norm_area_delta": -0.0003,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.1s",
+          "cx": 273.8,
+          "cy": 147.0,
+          "bbox_area": 15261.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.2s",
+          "cx": 273.8,
+          "cy": 146.8,
+          "bbox_area": 15242.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.3s",
+          "cx": 273.7,
+          "cy": 146.5,
+          "bbox_area": 15200.0,
+          "norm_area_delta": -0.0005,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.4s",
+          "cx": 273.7,
+          "cy": 146.5,
+          "bbox_area": 15172.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 273.8,
+          "cy": 146.5,
+          "bbox_area": 15185.0,
+          "norm_area_delta": 0.0009,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.6s",
+          "cx": 273.9,
+          "cy": 146.6,
+          "bbox_area": 15185.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.7s",
+          "cx": 273.9,
+          "cy": 146.7,
+          "bbox_area": 15160.0,
+          "norm_area_delta": -0.0001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.8s",
+          "cx": 273.8,
+          "cy": 146.7,
+          "bbox_area": 15152.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.9s",
+          "cx": 273.8,
+          "cy": 146.6,
+          "bbox_area": 15123.0,
+          "norm_area_delta": -0.001,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.0s",
+          "cx": 273.8,
+          "cy": 146.6,
+          "bbox_area": 15123.0,
+          "norm_area_delta": 0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.1s",
+          "cx": 273.9,
+          "cy": 147.1,
+          "bbox_area": 15108.0,
+          "norm_area_delta": -0.002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.2s",
+          "cx": 273.9,
+          "cy": 147.0,
+          "bbox_area": 15081.0,
+          "norm_area_delta": -0.0018,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.3s",
+          "cx": 273.8,
+          "cy": 147.0,
+          "bbox_area": 15076.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.4s",
+          "cx": 273.8,
+          "cy": 147.1,
+          "bbox_area": 15107.0,
+          "norm_area_delta": 0.0011,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.5s",
+          "cx": 273.8,
+          "cy": 147.2,
+          "bbox_area": 15122.0,
+          "norm_area_delta": 0.0006,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.6s",
+          "cx": 273.9,
+          "cy": 149.0,
+          "bbox_area": 15453.0,
+          "norm_area_delta": 0.0117,
+          "norm_speed": 0.001
+        },
+        {
+          "t": "93.7s",
+          "cx": 274.0,
+          "cy": 149.6,
+          "bbox_area": 15561.0,
+          "norm_area_delta": 0.0003,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.8s",
+          "cx": 274.0,
+          "cy": 149.8,
+          "bbox_area": 15599.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.9s",
+          "cx": 274.0,
+          "cy": 149.8,
+          "bbox_area": 15599.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.0s",
+          "cx": 273.9,
+          "cy": 149.9,
+          "bbox_area": 15620.0,
+          "norm_area_delta": 0.0008,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.1s",
+          "cx": 273.9,
+          "cy": 149.6,
+          "bbox_area": 15661.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.2s",
+          "cx": 273.9,
+          "cy": 149.6,
+          "bbox_area": 15697.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.3s",
+          "cx": 273.9,
+          "cy": 149.5,
+          "bbox_area": 15697.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.4s",
+          "cx": 273.9,
+          "cy": 149.2,
+          "bbox_area": 15683.0,
+          "norm_area_delta": -0.0003,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.5s",
+          "cx": 273.9,
+          "cy": 148.9,
+          "bbox_area": 15602.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.6s",
+          "cx": 273.8,
+          "cy": 149.1,
+          "bbox_area": 15625.0,
+          "norm_area_delta": 0.0015,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.7s",
+          "cx": 273.8,
+          "cy": 149.7,
+          "bbox_area": 15737.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.8s",
+          "cx": 273.8,
+          "cy": 149.3,
+          "bbox_area": 15660.0,
+          "norm_area_delta": -0.0049,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "94.9s",
+          "cx": 273.8,
+          "cy": 149.1,
+          "bbox_area": 15658.0,
+          "norm_area_delta": -0.0002,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "95.0s",
+          "cx": 273.9,
+          "cy": 148.9,
+          "bbox_area": 15631.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0001
+        }
+      ]
+    },
+    {
+      "id": "T170",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 485.6,
+          "cy": 96.2,
+          "bbox_area": 3543.0,
+          "norm_area_delta": -0.0452,
+          "norm_speed": 0.001
+        },
+        {
+          "t": "85.1s",
+          "cx": 485.6,
+          "cy": 95.4,
+          "bbox_area": 3436.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.2s",
+          "cx": 485.2,
+          "cy": 94.5,
+          "bbox_area": 3624.0,
+          "norm_area_delta": 0.0518,
+          "norm_speed": 0.0007
+        },
+        {
+          "t": "85.3s",
+          "cx": 485.1,
+          "cy": 93.1,
+          "bbox_area": 3691.0,
+          "norm_area_delta": 0.0118,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "85.4s",
+          "cx": 484.0,
+          "cy": 92.7,
+          "bbox_area": 3800.0,
+          "norm_area_delta": 0.0136,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.5s",
+          "cx": 484.0,
+          "cy": 92.5,
+          "bbox_area": 3914.0,
+          "norm_area_delta": 0.0112,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.6s",
+          "cx": 484.2,
+          "cy": 92.5,
+          "bbox_area": 3914.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.7s",
+          "cx": 484.4,
+          "cy": 92.5,
+          "bbox_area": 3881.0,
+          "norm_area_delta": -0.0072,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.8s",
+          "cx": 484.7,
+          "cy": 92.5,
+          "bbox_area": 3788.0,
+          "norm_area_delta": -0.0064,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.9s",
+          "cx": 485.2,
+          "cy": 91.2,
+          "bbox_area": 3593.0,
+          "norm_area_delta": -0.0322,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "86.0s",
+          "cx": 485.3,
+          "cy": 87.9,
+          "bbox_area": 3341.0,
+          "norm_area_delta": -0.0072,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "86.1s",
+          "cx": 484.8,
+          "cy": 86.0,
+          "bbox_area": 3307.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "86.2s",
+          "cx": 484.1,
+          "cy": 85.5,
+          "bbox_area": 3325.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "86.3s",
+          "cx": 484.1,
+          "cy": 84.6,
+          "bbox_area": 3166.0,
+          "norm_area_delta": -0.0502,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.4s",
+          "cx": 484.1,
+          "cy": 84.6,
+          "bbox_area": 3166.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.5s",
+          "cx": 483.0,
+          "cy": 84.3,
+          "bbox_area": 3204.0,
+          "norm_area_delta": 0.0007,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "86.6s",
+          "cx": 482.5,
+          "cy": 83.6,
+          "bbox_area": 3258.0,
+          "norm_area_delta": 0.0042,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.7s",
+          "cx": 480.6,
+          "cy": 83.3,
+          "bbox_area": 3552.0,
+          "norm_area_delta": 0.033,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "86.8s",
+          "cx": 479.6,
+          "cy": 83.0,
+          "bbox_area": 3676.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "86.9s",
+          "cx": 479.6,
+          "cy": 82.9,
+          "bbox_area": 3605.0,
+          "norm_area_delta": -0.0199,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.0s",
+          "cx": 479.9,
+          "cy": 82.8,
+          "bbox_area": 3489.0,
+          "norm_area_delta": -0.0058,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.1s",
+          "cx": 481.2,
+          "cy": 82.7,
+          "bbox_area": 3367.0,
+          "norm_area_delta": -0.0114,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "87.2s",
+          "cx": 482.3,
+          "cy": 82.2,
+          "bbox_area": 3332.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "87.3s",
+          "cx": 483.1,
+          "cy": 80.2,
+          "bbox_area": 3114.0,
+          "norm_area_delta": -0.0241,
+          "norm_speed": 0.0008
+        },
+        {
+          "t": "87.4s",
+          "cx": 483.0,
+          "cy": 79.1,
+          "bbox_area": 3105.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "87.5s",
+          "cx": 482.8,
+          "cy": 77.9,
+          "bbox_area": 3143.0,
+          "norm_area_delta": 0.0069,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.6s",
+          "cx": 482.8,
+          "cy": 77.8,
+          "bbox_area": 3143.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.7s",
+          "cx": 483.0,
+          "cy": 75.9,
+          "bbox_area": 2935.0,
+          "norm_area_delta": -0.0328,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "87.8s",
+          "cx": 482.8,
+          "cy": 75.5,
+          "bbox_area": 2916.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.9s",
+          "cx": 481.3,
+          "cy": 75.0,
+          "bbox_area": 2923.0,
+          "norm_area_delta": 0.0018,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "88.0s",
+          "cx": 480.2,
+          "cy": 74.7,
+          "bbox_area": 3171.0,
+          "norm_area_delta": 0.0173,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "88.1s",
+          "cx": 479.4,
+          "cy": 74.2,
+          "bbox_area": 3277.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "88.2s",
+          "cx": 479.3,
+          "cy": 74.3,
+          "bbox_area": 3247.0,
+          "norm_area_delta": -0.009,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.3s",
+          "cx": 479.2,
+          "cy": 74.7,
+          "bbox_area": 3121.0,
+          "norm_area_delta": -0.0181,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "88.4s",
+          "cx": 479.2,
+          "cy": 74.7,
+          "bbox_area": 3121.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "88.5s",
+          "cx": 480.1,
+          "cy": 74.5,
+          "bbox_area": 3125.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.6s",
+          "cx": 480.8,
+          "cy": 74.4,
+          "bbox_area": 3045.0,
+          "norm_area_delta": -0.0093,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "88.7s",
+          "cx": 481.6,
+          "cy": 72.3,
+          "bbox_area": 2848.0,
+          "norm_area_delta": -0.0564,
+          "norm_speed": 0.001
+        },
+        {
+          "t": "88.8s",
+          "cx": 481.6,
+          "cy": 70.6,
+          "bbox_area": 2848.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0007
+        },
+        {
+          "t": "88.9s",
+          "cx": 481.2,
+          "cy": 70.0,
+          "bbox_area": 2848.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "89.0s",
+          "cx": 481.2,
+          "cy": 69.8,
+          "bbox_area": 2695.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.1s",
+          "cx": 481.2,
+          "cy": 69.5,
+          "bbox_area": 2706.0,
+          "norm_area_delta": 0.0041,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.2s",
+          "cx": 479.7,
+          "cy": 68.6,
+          "bbox_area": 2747.0,
+          "norm_area_delta": 0.0027,
+          "norm_speed": 0.0012
+        },
+        {
+          "t": "89.3s",
+          "cx": 479.1,
+          "cy": 68.2,
+          "bbox_area": 2825.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.4s",
+          "cx": 477.8,
+          "cy": 67.8,
+          "bbox_area": 2853.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "89.5s",
+          "cx": 477.6,
+          "cy": 67.6,
+          "bbox_area": 2853.0,
+          "norm_area_delta": -0.0126,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "89.6s",
+          "cx": 476.4,
+          "cy": 67.3,
+          "bbox_area": 2739.0,
+          "norm_area_delta": -0.0414,
+          "norm_speed": 0.0012
+        },
+        {
+          "t": "89.7s",
+          "cx": 476.4,
+          "cy": 67.1,
+          "bbox_area": 2739.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.8s",
+          "cx": 478.9,
+          "cy": 67.1,
+          "bbox_area": 2928.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.9s",
+          "cx": 479.6,
+          "cy": 66.9,
+          "bbox_area": 2619.0,
+          "norm_area_delta": -0.0416,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.0s",
+          "cx": 479.8,
+          "cy": 65.9,
+          "bbox_area": 2483.0,
+          "norm_area_delta": -0.0006,
+          "norm_speed": 0.001
+        },
+        {
+          "t": "90.1s",
+          "cx": 479.8,
+          "cy": 65.0,
+          "bbox_area": 2483.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.2s",
+          "cx": 479.3,
+          "cy": 65.0,
+          "bbox_area": 2483.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.3s",
+          "cx": 479.0,
+          "cy": 64.7,
+          "bbox_area": 2438.0,
+          "norm_area_delta": -0.0041,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.4s",
+          "cx": 478.7,
+          "cy": 64.1,
+          "bbox_area": 2306.0,
+          "norm_area_delta": -0.0161,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "90.5s",
+          "cx": 477.9,
+          "cy": 63.6,
+          "bbox_area": 2292.0,
+          "norm_area_delta": -0.0014,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.6s",
+          "cx": 476.5,
+          "cy": 63.4,
+          "bbox_area": 2256.0,
+          "norm_area_delta": -0.0092,
+          "norm_speed": 0.0011
+        },
+        {
+          "t": "90.7s",
+          "cx": 475.2,
+          "cy": 62.4,
+          "bbox_area": 2191.0,
+          "norm_area_delta": -0.0059,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "90.8s",
+          "cx": 474.8,
+          "cy": 62.2,
+          "bbox_area": 2172.0,
+          "norm_area_delta": -0.0028,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.9s",
+          "cx": 474.4,
+          "cy": 62.2,
+          "bbox_area": 2167.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.0s",
+          "cx": 474.6,
+          "cy": 61.9,
+          "bbox_area": 2121.0,
+          "norm_area_delta": -0.008,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "91.1s",
+          "cx": 475.0,
+          "cy": 61.8,
+          "bbox_area": 2154.0,
+          "norm_area_delta": 0.0073,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.2s",
+          "cx": 476.7,
+          "cy": 60.6,
+          "bbox_area": 2248.0,
+          "norm_area_delta": 0.0388,
+          "norm_speed": 0.0012
+        },
+        {
+          "t": "91.3s",
+          "cx": 477.2,
+          "cy": 60.3,
+          "bbox_area": 2269.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.4s",
+          "cx": 477.5,
+          "cy": 59.0,
+          "bbox_area": 2265.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "91.5s",
+          "cx": 477.5,
+          "cy": 58.9,
+          "bbox_area": 2265.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.6s",
+          "cx": 477.3,
+          "cy": 58.7,
+          "bbox_area": 2185.0,
+          "norm_area_delta": -0.0366,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "91.7s",
+          "cx": 477.2,
+          "cy": 58.6,
+          "bbox_area": 2053.0,
+          "norm_area_delta": -0.0102,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.8s",
+          "cx": 476.0,
+          "cy": 58.4,
+          "bbox_area": 1996.0,
+          "norm_area_delta": -0.009,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "91.9s",
+          "cx": 475.4,
+          "cy": 57.8,
+          "bbox_area": 1986.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "92.0s",
+          "cx": 474.9,
+          "cy": 56.8,
+          "bbox_area": 1994.0,
+          "norm_area_delta": 0.0041,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.1s",
+          "cx": 474.9,
+          "cy": 56.7,
+          "bbox_area": 1994.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.2s",
+          "cx": 475.0,
+          "cy": 56.5,
+          "bbox_area": 1971.0,
+          "norm_area_delta": -0.0029,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.3s",
+          "cx": 475.8,
+          "cy": 56.5,
+          "bbox_area": 1930.0,
+          "norm_area_delta": -0.0112,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "92.4s",
+          "cx": 476.8,
+          "cy": 56.5,
+          "bbox_area": 1909.0,
+          "norm_area_delta": -0.0019,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "92.5s",
+          "cx": 478.1,
+          "cy": 56.3,
+          "bbox_area": 1909.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0007
+        },
+        {
+          "t": "92.6s",
+          "cx": 479.3,
+          "cy": 55.6,
+          "bbox_area": 1930.0,
+          "norm_area_delta": 0.0022,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "92.7s",
+          "cx": 479.6,
+          "cy": 54.4,
+          "bbox_area": 1961.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "92.8s",
+          "cx": 479.9,
+          "cy": 54.3,
+          "bbox_area": 1942.0,
+          "norm_area_delta": -0.0072,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "92.9s",
+          "cx": 480.1,
+          "cy": 53.6,
+          "bbox_area": 1831.0,
+          "norm_area_delta": -0.0158,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "93.0s",
+          "cx": 479.3,
+          "cy": 53.3,
+          "bbox_area": 1751.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "93.1s",
+          "cx": 478.4,
+          "cy": 53.0,
+          "bbox_area": 1730.0,
+          "norm_area_delta": -0.0024,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "93.2s",
+          "cx": 477.3,
+          "cy": 53.0,
+          "bbox_area": 1712.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "93.3s",
+          "cx": 476.4,
+          "cy": 52.3,
+          "bbox_area": 1733.0,
+          "norm_area_delta": 0.0121,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "93.4s",
+          "cx": 475.7,
+          "cy": 51.9,
+          "bbox_area": 1783.0,
+          "norm_area_delta": 0.0019,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "93.5s",
+          "cx": 475.6,
+          "cy": 51.8,
+          "bbox_area": 1783.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.6s",
+          "cx": 475.5,
+          "cy": 51.6,
+          "bbox_area": 1737.0,
+          "norm_area_delta": -0.0059,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.7s",
+          "cx": 475.5,
+          "cy": 51.5,
+          "bbox_area": 1705.0,
+          "norm_area_delta": -0.0016,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.8s",
+          "cx": 476.1,
+          "cy": 51.5,
+          "bbox_area": 1669.0,
+          "norm_area_delta": -0.0062,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "93.9s",
+          "cx": 476.6,
+          "cy": 51.1,
+          "bbox_area": 1666.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "94.0s",
+          "cx": 476.8,
+          "cy": 50.5,
+          "bbox_area": 1668.0,
+          "norm_area_delta": 0.0016,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.1s",
+          "cx": 476.5,
+          "cy": 50.0,
+          "bbox_area": 1705.0,
+          "norm_area_delta": 0.0155,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "94.2s",
+          "cx": 475.6,
+          "cy": 49.8,
+          "bbox_area": 1715.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.3s",
+          "cx": 475.3,
+          "cy": 49.8,
+          "bbox_area": 1664.0,
+          "norm_area_delta": -0.0268,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.4s",
+          "cx": 474.5,
+          "cy": 49.5,
+          "bbox_area": 1578.0,
+          "norm_area_delta": -0.0117,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.5s",
+          "cx": 473.6,
+          "cy": 48.7,
+          "bbox_area": 1565.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "94.6s",
+          "cx": 472.4,
+          "cy": 48.5,
+          "bbox_area": 1614.0,
+          "norm_area_delta": 0.008,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "94.7s",
+          "cx": 471.4,
+          "cy": 47.8,
+          "bbox_area": 1682.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "94.8s",
+          "cx": 470.9,
+          "cy": 47.6,
+          "bbox_area": 1587.0,
+          "norm_area_delta": -0.017,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.9s",
+          "cx": 470.9,
+          "cy": 47.1,
+          "bbox_area": 1518.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "95.0s",
+          "cx": 471.5,
+          "cy": 47.0,
+          "bbox_area": 1525.0,
+          "norm_area_delta": 0.005,
+          "norm_speed": 0.0002
+        }
+      ]
+    },
+    {
+      "id": "T171",
+      "class": "person",
+      "samples": [
+        {
+          "t": "85.0s",
+          "cx": 448.5,
+          "cy": 93.8,
+          "bbox_area": 5290.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "85.1s",
+          "cx": 447.7,
+          "cy": 93.5,
+          "bbox_area": 5267.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.2s",
+          "cx": 446.8,
+          "cy": 92.6,
+          "bbox_area": 5345.0,
+          "norm_area_delta": 0.0071,
+          "norm_speed": 0.0007
+        },
+        {
+          "t": "85.3s",
+          "cx": 445.3,
+          "cy": 90.5,
+          "bbox_area": 5423.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0007
+        },
+        {
+          "t": "85.4s",
+          "cx": 444.7,
+          "cy": 89.3,
+          "bbox_area": 5323.0,
+          "norm_area_delta": -0.0188,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.5s",
+          "cx": 443.8,
+          "cy": 88.7,
+          "bbox_area": 5190.0,
+          "norm_area_delta": -0.0033,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "85.6s",
+          "cx": 443.4,
+          "cy": 88.4,
+          "bbox_area": 5029.0,
+          "norm_area_delta": -0.0087,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "85.7s",
+          "cx": 443.0,
+          "cy": 88.4,
+          "bbox_area": 4812.0,
+          "norm_area_delta": -0.0041,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "85.8s",
+          "cx": 443.6,
+          "cy": 88.4,
+          "bbox_area": 4784.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "85.9s",
+          "cx": 444.9,
+          "cy": 87.2,
+          "bbox_area": 4859.0,
+          "norm_area_delta": 0.0154,
+          "norm_speed": 0.0013
+        },
+        {
+          "t": "86.0s",
+          "cx": 445.3,
+          "cy": 86.2,
+          "bbox_area": 4859.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.1s",
+          "cx": 445.2,
+          "cy": 84.0,
+          "bbox_area": 4675.0,
+          "norm_area_delta": -0.0067,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "86.2s",
+          "cx": 444.4,
+          "cy": 83.1,
+          "bbox_area": 4527.0,
+          "norm_area_delta": -0.0084,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "86.3s",
+          "cx": 443.0,
+          "cy": 82.2,
+          "bbox_area": 4508.0,
+          "norm_area_delta": -0.0038,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "86.4s",
+          "cx": 442.8,
+          "cy": 82.0,
+          "bbox_area": 4505.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "86.5s",
+          "cx": 441.7,
+          "cy": 82.2,
+          "bbox_area": 4547.0,
+          "norm_area_delta": 0.0066,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "86.6s",
+          "cx": 441.1,
+          "cy": 82.3,
+          "bbox_area": 4547.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "86.7s",
+          "cx": 440.3,
+          "cy": 81.3,
+          "bbox_area": 4481.0,
+          "norm_area_delta": -0.0001,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "86.8s",
+          "cx": 440.3,
+          "cy": 79.2,
+          "bbox_area": 4481.0,
+          "norm_area_delta": 0.0001,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "86.9s",
+          "cx": 439.4,
+          "cy": 78.0,
+          "bbox_area": 4544.0,
+          "norm_area_delta": 0.0072,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "87.0s",
+          "cx": 439.4,
+          "cy": 77.7,
+          "bbox_area": 4544.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.1s",
+          "cx": 440.5,
+          "cy": 77.9,
+          "bbox_area": 4504.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "87.2s",
+          "cx": 440.7,
+          "cy": 77.9,
+          "bbox_area": 4441.0,
+          "norm_area_delta": -0.0041,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "87.3s",
+          "cx": 442.2,
+          "cy": 77.3,
+          "bbox_area": 4361.0,
+          "norm_area_delta": -0.0048,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "87.4s",
+          "cx": 443.0,
+          "cy": 76.6,
+          "bbox_area": 4220.0,
+          "norm_area_delta": -0.0086,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "87.5s",
+          "cx": 444.0,
+          "cy": 74.5,
+          "bbox_area": 4162.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "87.6s",
+          "cx": 444.3,
+          "cy": 74.0,
+          "bbox_area": 4073.0,
+          "norm_area_delta": -0.0059,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.7s",
+          "cx": 444.4,
+          "cy": 73.2,
+          "bbox_area": 3913.0,
+          "norm_area_delta": -0.0126,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "87.8s",
+          "cx": 444.1,
+          "cy": 73.1,
+          "bbox_area": 3802.0,
+          "norm_area_delta": -0.0065,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "87.9s",
+          "cx": 443.7,
+          "cy": 73.1,
+          "bbox_area": 3705.0,
+          "norm_area_delta": -0.0221,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "88.0s",
+          "cx": 443.3,
+          "cy": 73.1,
+          "bbox_area": 3591.0,
+          "norm_area_delta": -0.0066,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.1s",
+          "cx": 443.2,
+          "cy": 71.8,
+          "bbox_area": 3588.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "88.2s",
+          "cx": 443.2,
+          "cy": 70.7,
+          "bbox_area": 3630.0,
+          "norm_area_delta": 0.0036,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "88.3s",
+          "cx": 443.0,
+          "cy": 70.0,
+          "bbox_area": 3723.0,
+          "norm_area_delta": 0.0055,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.4s",
+          "cx": 443.0,
+          "cy": 69.9,
+          "bbox_area": 3725.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.5s",
+          "cx": 443.5,
+          "cy": 69.5,
+          "bbox_area": 3689.0,
+          "norm_area_delta": -0.0093,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "88.6s",
+          "cx": 443.9,
+          "cy": 69.5,
+          "bbox_area": 3646.0,
+          "norm_area_delta": -0.0019,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "88.7s",
+          "cx": 445.5,
+          "cy": 68.9,
+          "bbox_area": 3408.0,
+          "norm_area_delta": -0.0187,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "88.8s",
+          "cx": 446.0,
+          "cy": 68.2,
+          "bbox_area": 3311.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "88.9s",
+          "cx": 446.5,
+          "cy": 67.4,
+          "bbox_area": 3290.0,
+          "norm_area_delta": -0.0011,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "89.0s",
+          "cx": 446.5,
+          "cy": 66.8,
+          "bbox_area": 3254.0,
+          "norm_area_delta": -0.0111,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.1s",
+          "cx": 446.4,
+          "cy": 66.4,
+          "bbox_area": 3167.0,
+          "norm_area_delta": -0.0063,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.2s",
+          "cx": 446.3,
+          "cy": 65.6,
+          "bbox_area": 3132.0,
+          "norm_area_delta": -0.0102,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "89.3s",
+          "cx": 446.3,
+          "cy": 65.6,
+          "bbox_area": 3123.0,
+          "norm_area_delta": -0.0027,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.4s",
+          "cx": 445.9,
+          "cy": 65.9,
+          "bbox_area": 3102.0,
+          "norm_area_delta": -0.0069,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "89.5s",
+          "cx": 445.6,
+          "cy": 65.9,
+          "bbox_area": 3102.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "89.6s",
+          "cx": 445.5,
+          "cy": 64.9,
+          "bbox_area": 3112.0,
+          "norm_area_delta": 0.0031,
+          "norm_speed": 0.001
+        },
+        {
+          "t": "89.7s",
+          "cx": 445.2,
+          "cy": 64.4,
+          "bbox_area": 3149.0,
+          "norm_area_delta": 0.0045,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "89.8s",
+          "cx": 444.6,
+          "cy": 63.7,
+          "bbox_area": 3205.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "89.9s",
+          "cx": 444.3,
+          "cy": 63.2,
+          "bbox_area": 3129.0,
+          "norm_area_delta": -0.0129,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.0s",
+          "cx": 444.6,
+          "cy": 62.7,
+          "bbox_area": 2982.0,
+          "norm_area_delta": -0.0278,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "90.1s",
+          "cx": 444.9,
+          "cy": 62.7,
+          "bbox_area": 2982.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.2s",
+          "cx": 446.1,
+          "cy": 63.3,
+          "bbox_area": 3012.0,
+          "norm_area_delta": 0.0028,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "90.3s",
+          "cx": 446.4,
+          "cy": 63.3,
+          "bbox_area": 3012.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.4s",
+          "cx": 446.5,
+          "cy": 61.2,
+          "bbox_area": 2876.0,
+          "norm_area_delta": -0.0359,
+          "norm_speed": 0.0015
+        },
+        {
+          "t": "90.5s",
+          "cx": 446.4,
+          "cy": 61.0,
+          "bbox_area": 2869.0,
+          "norm_area_delta": -0.0013,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "90.6s",
+          "cx": 446.2,
+          "cy": 60.7,
+          "bbox_area": 2869.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.7s",
+          "cx": 446.0,
+          "cy": 59.9,
+          "bbox_area": 2834.0,
+          "norm_area_delta": -0.0025,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "90.8s",
+          "cx": 446.0,
+          "cy": 59.9,
+          "bbox_area": 2827.0,
+          "norm_area_delta": -0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "90.9s",
+          "cx": 445.7,
+          "cy": 60.2,
+          "bbox_area": 2746.0,
+          "norm_area_delta": -0.0081,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "91.0s",
+          "cx": 444.0,
+          "cy": 60.1,
+          "bbox_area": 2746.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "91.1s",
+          "cx": 443.5,
+          "cy": 59.4,
+          "bbox_area": 2830.0,
+          "norm_area_delta": 0.0082,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "91.2s",
+          "cx": 442.6,
+          "cy": 58.3,
+          "bbox_area": 2964.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "91.3s",
+          "cx": 442.2,
+          "cy": 57.6,
+          "bbox_area": 2910.0,
+          "norm_area_delta": -0.0026,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.4s",
+          "cx": 442.0,
+          "cy": 57.2,
+          "bbox_area": 2878.0,
+          "norm_area_delta": -0.0048,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.5s",
+          "cx": 442.0,
+          "cy": 56.8,
+          "bbox_area": 2851.0,
+          "norm_area_delta": -0.0011,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "91.6s",
+          "cx": 442.1,
+          "cy": 56.9,
+          "bbox_area": 2824.0,
+          "norm_area_delta": -0.0007,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "91.7s",
+          "cx": 442.4,
+          "cy": 56.9,
+          "bbox_area": 2752.0,
+          "norm_area_delta": -0.0072,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "91.8s",
+          "cx": 443.4,
+          "cy": 55.9,
+          "bbox_area": 2628.0,
+          "norm_area_delta": -0.0235,
+          "norm_speed": 0.0009
+        },
+        {
+          "t": "91.9s",
+          "cx": 444.4,
+          "cy": 55.7,
+          "bbox_area": 2571.0,
+          "norm_area_delta": -0.0017,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "92.0s",
+          "cx": 444.9,
+          "cy": 55.0,
+          "bbox_area": 2532.0,
+          "norm_area_delta": -0.0125,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "92.1s",
+          "cx": 444.9,
+          "cy": 54.4,
+          "bbox_area": 2474.0,
+          "norm_area_delta": -0.0171,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "92.2s",
+          "cx": 444.9,
+          "cy": 54.3,
+          "bbox_area": 2449.0,
+          "norm_area_delta": -0.0013,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.3s",
+          "cx": 444.6,
+          "cy": 54.3,
+          "bbox_area": 2417.0,
+          "norm_area_delta": -0.0011,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "92.4s",
+          "cx": 444.3,
+          "cy": 54.9,
+          "bbox_area": 2417.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.5s",
+          "cx": 444.3,
+          "cy": 54.9,
+          "bbox_area": 2562.0,
+          "norm_area_delta": 0.0103,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "92.6s",
+          "cx": 445.0,
+          "cy": 53.6,
+          "bbox_area": 2598.0,
+          "norm_area_delta": 0.0025,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "92.7s",
+          "cx": 445.3,
+          "cy": 52.9,
+          "bbox_area": 2598.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "92.8s",
+          "cx": 445.3,
+          "cy": 52.6,
+          "bbox_area": 2453.0,
+          "norm_area_delta": -0.0166,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "92.9s",
+          "cx": 445.5,
+          "cy": 52.3,
+          "bbox_area": 2164.0,
+          "norm_area_delta": -0.0235,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.0s",
+          "cx": 445.8,
+          "cy": 51.4,
+          "bbox_area": 2022.0,
+          "norm_area_delta": -0.0158,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "93.1s",
+          "cx": 446.5,
+          "cy": 51.4,
+          "bbox_area": 1993.0,
+          "norm_area_delta": -0.0108,
+          "norm_speed": 0.0005
+        },
+        {
+          "t": "93.2s",
+          "cx": 446.8,
+          "cy": 51.4,
+          "bbox_area": 2019.0,
+          "norm_area_delta": 0.0019,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.3s",
+          "cx": 446.5,
+          "cy": 51.7,
+          "bbox_area": 2203.0,
+          "norm_area_delta": 0.076,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "93.4s",
+          "cx": 446.3,
+          "cy": 51.7,
+          "bbox_area": 2362.0,
+          "norm_area_delta": 0.0113,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "93.5s",
+          "cx": 445.9,
+          "cy": 51.5,
+          "bbox_area": 2479.0,
+          "norm_area_delta": 0.0127,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.6s",
+          "cx": 446.6,
+          "cy": 50.7,
+          "bbox_area": 2479.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0003
+        },
+        {
+          "t": "93.7s",
+          "cx": 446.9,
+          "cy": 50.6,
+          "bbox_area": 2418.0,
+          "norm_area_delta": -0.0244,
+          "norm_speed": 0.0004
+        },
+        {
+          "t": "93.8s",
+          "cx": 447.6,
+          "cy": 50.8,
+          "bbox_area": 2282.0,
+          "norm_area_delta": -0.0137,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "93.9s",
+          "cx": 447.6,
+          "cy": 50.8,
+          "bbox_area": 2209.0,
+          "norm_area_delta": -0.0015,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.0s",
+          "cx": 447.5,
+          "cy": 50.5,
+          "bbox_area": 2209.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.1s",
+          "cx": 447.2,
+          "cy": 49.2,
+          "bbox_area": 2060.0,
+          "norm_area_delta": -0.0604,
+          "norm_speed": 0.0011
+        },
+        {
+          "t": "94.2s",
+          "cx": 447.0,
+          "cy": 48.6,
+          "bbox_area": 1950.0,
+          "norm_area_delta": -0.0064,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.3s",
+          "cx": 447.0,
+          "cy": 48.5,
+          "bbox_area": 1879.0,
+          "norm_area_delta": -0.0106,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.4s",
+          "cx": 446.9,
+          "cy": 48.4,
+          "bbox_area": 1828.0,
+          "norm_area_delta": -0.0062,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.5s",
+          "cx": 446.9,
+          "cy": 48.1,
+          "bbox_area": 1799.0,
+          "norm_area_delta": -0.0006,
+          "norm_speed": 0.0
+        },
+        {
+          "t": "94.6s",
+          "cx": 447.0,
+          "cy": 48.0,
+          "bbox_area": 1788.0,
+          "norm_area_delta": -0.0024,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "94.7s",
+          "cx": 448.4,
+          "cy": 47.8,
+          "bbox_area": 1770.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0006
+        },
+        {
+          "t": "94.8s",
+          "cx": 448.6,
+          "cy": 46.9,
+          "bbox_area": 1826.0,
+          "norm_area_delta": 0.0088,
+          "norm_speed": 0.0002
+        },
+        {
+          "t": "94.9s",
+          "cx": 448.6,
+          "cy": 46.4,
+          "bbox_area": 1915.0,
+          "norm_area_delta": 0.0143,
+          "norm_speed": 0.0001
+        },
+        {
+          "t": "95.0s",
+          "cx": 447.5,
+          "cy": 46.0,
+          "bbox_area": 1915.0,
+          "norm_area_delta": 0.0,
+          "norm_speed": 0.0004
+        }
+      ]
+    }
+  ]
+}

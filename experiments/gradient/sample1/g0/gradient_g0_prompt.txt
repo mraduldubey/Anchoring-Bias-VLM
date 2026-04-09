@@ -1,0 +1,5 @@
+You are analyzing a surveillance video.
+The grid image shows 10 uniformly-sampled frames from a 10.0s window (85.0s–95.0s), left-to-right, top-to-bottom, each timestamped.
+
+Describe what is happening in this window. Include timestamps.
+Focus on: what people are doing, what objects are present, notable events, any suspicious or significant activity.

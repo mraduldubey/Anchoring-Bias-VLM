@@ -1,0 +1,14 @@
+This surveillance clip, spanning from **85.0s to 95.0s**, captures a woman in a red top and black pants (T2) engaging in potentially suspicious activity at a clothing display.
+
+### Chronological Summary of Events:
+
+*   **85.0s – 87.5s:** The woman (T2), carrying a large dark bag over her shoulder, stands by a rack of dark garments on the left side of the hallway. She is seen browsing and reaching for items on the rack.
+*   **88.7s:** She pulls a dark item—likely a piece of clothing—off the rack and turns her body toward the center of the hallway.
+*   **90.0s:** Standing in the middle of the walkway, she appears to place the item she just took into her large shoulder bag. Detection data confirms several objects, such as a handbag and suitcase (O164, O203), are associated with her at this moment as she manipulates the bag's contents.
+*   **91.2s – 93.7s:** After securing the item, she begins walking away from the display area, heading down the hallway toward the background.
+*   **95.0s:** She continues walking away from the camera, exiting the immediate area of the clothing rack.
+
+### Other Observations:
+*   **Background Activity:** Throughout the window, other mall visitors (T170, T171) can be seen walking in the distance at the end of the hallway, seemingly unaware of the foreground activity. 
+*   **Environment:** Several mannequins are present; one is dressed in a maroon outfit on the left, and another in a pink and white dress stands further back in the hallway.
+*   **Significant Activity:** The woman's actions—taking an item from a display and immediately placing it into her personal bag before walking away—are consistent with shoplifting behavior.

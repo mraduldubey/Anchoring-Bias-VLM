@@ -1,0 +1,25 @@
+experiment,condition,model,VD,DN,VD_ratio,shoplifting_detected,fake_phone_adopted,fake_person_adopted,fake_bag_adopted,notes
+exp1,baseline,gemini-3-flash-preview,16,0,100%,yes,n/a,n/a,n/a,confident with precise timing
+exp1,text_bbox_real,gemini-3-flash-preview,8,7,53%,hedged,n/a,n/a,n/a,noteworthy behavior
+exp1,text_bbox_fake,gemini-3-flash-preview,9,6,60%,hedged,yes,no,no,notable for security
+exp1,visual_bbox_real,gemini-3-flash-preview,11,5,69%,yes,n/a,n/a,n/a,consistent with shoplifting
+exp1,visual_bbox_fake,gemini-3-flash-preview,8,6,57%,no,yes,no,no,typical shopper checking phone
+exp1,crossmodal_real,gemini-3-flash-preview,7,8,47%,no,n/a,n/a,n/a,fabricated back-and-forth movement
+exp1,crossmodal_fake,gemini-3-flash-preview,6,9,40%,no,yes,no,no,no suspicious activity
+exp1,baseline,gemini-2.5-flash,14,0,100%,no,n/a,n/a,n/a,hedged: no definitive evidence
+exp1,text_bbox_real,gemini-2.5-flash,5,9,36%,no,n/a,n/a,n/a,no suspicious activities
+exp1,text_bbox_fake,gemini-2.5-flash,5,8,38%,no,yes,partial,no,phone adopted; F1 misattributed
+exp1,visual_bbox_real,gemini-2.5-flash,8,7,53%,hedged,n/a,n/a,n/a,potentially suspicious
+exp1,visual_bbox_fake,gemini-2.5-flash,5,9,36%,no,yes,no,no,bag reclassified as travel bag
+exp1,crossmodal_real,gemini-2.5-flash,4,10,29%,no,n/a,n/a,n/a,fabricated rummaging on ground
+exp1,crossmodal_fake,gemini-2.5-flash,4,11,27%,no,yes,yes,yes,all 3 fakes adopted; mannequin T89 + red box O412
+gradient,G0,gemini-2.5-flash,n/a,n/a,~100%,yes,n/a,n/a,n/a,confident accurate timing
+gradient,G1,gemini-2.5-flash,n/a,n/a,~85%,yes,n/a,n/a,n/a,confident
+gradient,G2,gemini-2.5-flash,n/a,n/a,~65%,yes,n/a,n/a,n/a,timing drifts
+gradient,G3,gemini-2.5-flash,n/a,n/a,~45%,yes,n/a,n/a,n/a,late + heavy data citation
+gradient,G4,gemini-2.5-flash,n/a,n/a,~20%,no,n/a,n/a,n/a,no suspicious activity; data artifact
+pre-existing,Mode_0_S1,gemini-2.5-flash,n/a,n/a,100%,yes,n/a,n/a,n/a,richest visual narrative
+pre-existing,Mode_A_S1,gemini-2.5-flash,n/a,n/a,69%,yes,n/a,n/a,n/a,phone confabulation
+pre-existing,Mode_B_S1,gemini-2.5-flash,n/a,n/a,40%,yes,n/a,n/a,n/a,data narration dominates
+pre-existing,Mode_0_collision,gemini-2.5-flash,16,0,100%,n/a,n/a,n/a,n/a,detected collision (wrong participants)
+pre-existing,Mode_C_collision,gemini-2.5-flash,4,15,21%,n/a,n/a,n/a,n/a,missed collision entirely

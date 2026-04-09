@@ -1,0 +1,12 @@
+In the surveillance video clip from 85.0s to 95.0s, a person (identified as T2, wearing a red top and dark pants) is observed interacting with objects on the ground in what appears to be a shopping arcade or hallway. Several other individuals (T1, T170, T171) are seen walking in the background throughout the period. A mannequin (T4), dressed in a red gown, stands prominently to the left of T2.
+
+Here's a detailed timeline of events:
+
+*   **85.0s - 86.2s:** T2 is initially standing near a shop entrance and begins to bend down, reaching towards items on the ground with her right hand. She has a dark bag on her left shoulder.
+*   **87.5s:** T2 has partially straightened up, holding a dark object (possibly a wallet or another bag) in her left hand, and looking down.
+*   **88.7s - 90.0s:** T2 is fully crouched down, facing away from the camera, and appears to be actively rummaging through two dark objects on the ground directly in front of her. These objects are identified by the computer vision system as a "handbag" (O164) and another object (O203) classified as both a "suitcase" and a "handbag," suggesting it's a dark, rectangular container or bag. She seems to be searching for something within these items. At the 90.0s mark (full resolution frame), three other people (T1, T170, T171) are clearly visible walking away in the background, with one person (T171) in a light pink dress.
+*   **91.2s - 92.5s:** T2 begins to stand up from her crouched position, still looking down at the items or the spot where she was interacting with them.
+*   **93.7s - 95.0s:** T2 is fully standing, having turned slightly, and continues to look towards the area on the ground where she was previously focused. Her back is mostly to the camera during these frames.
+
+**Summary of Activity:**
+The primary activity is T2's interaction with personal items (bags/containers) on the ground. She spends several seconds bent down, appearing to search through or organize these items. No suspicious or significant activity beyond this personal interaction is observed during this 10-second window. The other people in the background are simply passing by.
