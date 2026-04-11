@@ -16,7 +16,7 @@ Narrow retail clothing aisle. A woman in a red top selects a dark garment from a
 - **Ground truth event:** Concealment begins ~87s, completed ~89.4--90.5s, departure ~92.8s onward
 - Used for: EXP1 (all 7 conditions), gradient (G0--G4), ghost (E1), wrong suspect (E2)
 
-*Note: A second scene (street camera with vehicle collision) was used in earlier experiments but is not included in this repository. All experiments here use Scene 1.*
+*All experiments in this repository use Scene 1.*
 
 ## Visual Input Format
 
@@ -94,7 +94,7 @@ Manual scoring by a single scorer. No inter-rater reliability. Suitable for iden
 - One primary scene (shoplifting) for all experiments.
 - n=1 per condition. Stochastic variation means individual responses could differ on re-run.
 - Manual VD/DN scoring with one scorer. Subjective boundary in some cases.
-- The "use visual frames as ground truth" prompt instruction may interact with anchoring effects in ways we haven't isolated.
+- The "use visual frames as ground truth" prompt instruction may interact with anchoring effects in ways I haven't isolated.
 - Both tested models are multimodal LLMs with reasoning capabilities. Simpler VLM architectures may show different patterns.
 
 ## Reproducibility
@@ -104,6 +104,6 @@ All inputs (images, prompts, text data) and outputs (model responses) are includ
 1. Use the saved images and prompts from `experiments/exp1/` (or other experiment directories)
 2. Send them to the same or different VLM via API
 3. Score the response using the VD/DN rubric in `scoring/rubric.md`
-4. Compare with our scored responses
+4. Compare with the scored responses
 
 The YOLO pipeline that generated the original detection data is not included (it lives in a separate repository). The detection data itself is included as JSON files.

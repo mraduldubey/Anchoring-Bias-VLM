@@ -13,7 +13,6 @@ These scripts are included for methodology transparency. They were used to gener
 |--------|---------|
 | `prepare_exp1.py` | Generates EXP1 images (grid, center frames with overlays), prompts, and text data JSONs |
 | `run_exp1.py` | Runs all 7 EXP1 conditions against the Gemini API and saves responses |
-| `experiment_anchoring.py` | Runs E0-E3 experiments (elephant room, contradictory data, partial data, gradient) |
 
 ## If you want to replicate
 

@@ -18,8 +18,3 @@ gradient,G1,gemini-2.5-flash,n/a,n/a,~85%,yes,n/a,n/a,n/a,confident
 gradient,G2,gemini-2.5-flash,n/a,n/a,~65%,yes,n/a,n/a,n/a,timing drifts
 gradient,G3,gemini-2.5-flash,n/a,n/a,~45%,yes,n/a,n/a,n/a,late + heavy data citation
 gradient,G4,gemini-2.5-flash,n/a,n/a,~20%,no,n/a,n/a,n/a,no suspicious activity; data artifact
-pre-existing,Mode_0_S1,gemini-2.5-flash,n/a,n/a,100%,yes,n/a,n/a,n/a,richest visual narrative
-pre-existing,Mode_A_S1,gemini-2.5-flash,n/a,n/a,69%,yes,n/a,n/a,n/a,phone confabulation
-pre-existing,Mode_B_S1,gemini-2.5-flash,n/a,n/a,40%,yes,n/a,n/a,n/a,data narration dominates
-pre-existing,Mode_0_collision,gemini-2.5-flash,16,0,100%,n/a,n/a,n/a,n/a,detected collision (wrong participants)
-pre-existing,Mode_C_collision,gemini-2.5-flash,4,15,21%,n/a,n/a,n/a,n/a,missed collision entirely

@@ -25,25 +25,13 @@
 
 **G4 failure:** The model treated a YOLO misdetection (carrying label change "handbag" to "backpack" at 93.7s) as the primary event. The actual shoplifting, visible in the same frames, was not mentioned.
 
-## Sample 2 — Street Scene (0--10s)
-
-| Level | Entity coverage | Notable artifact |
-|-------|-----------------|-----------------|
-| G0 | Rickshaw, motorcycle, backpack man, cow, pedestrians, environmental detail | Clean |
-| G1 | T2 prominent, cow at 8s, many track IDs | Entity count inflated by data |
-| G2 | T2 + cow + vehicles, trajectory errors | Cow entry time confused |
-| G3 | T2-centric, data-driven | **Hallucinated a dog** that does not exist |
-| G4 | Data narration dominates, cow gets one line | Background coordinate citations throughout |
-
-**G3 hallucination:** *"Around 6.0s, a dog can be seen moving in the mid-background near the shops."* No dog exists in the video. This appeared only at G3+ density -- a data-anchored confabulation.
-
 ## Key Finding
 
 The VD/(VD+DN) curve is monotonic. Every additional field of structured data costs visual perception. There is no level where "a little data helps" -- even G1 (minimal metadata) drops visual reasoning by ~15 points.
 
 ## Raw Data
 
-Each level has its own directory under `sample1/` and `sample2/` containing:
+Each level has its own directory under `sample1/` containing:
 - `gradient_gN_prompt.txt` — the exact prompt sent
 - `gradient_gN_input_data.json` — the structured data (absent for G0)
 - `gradient_gN_response.txt` — the model's response

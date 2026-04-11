@@ -26,7 +26,7 @@ Examples:
 - Bbox/coordinate references: "cx: 700.0," "bbox_area: 2308"
 - Carrying label imports: "carrying a backpack (from detection data)"
 - Confidence score references: "cell phone (confidence 0.44)"
-- Data quality observations: "fragmented tracking of the main cow"
+- Data quality observations: "the detection system misidentifies these as persons"
 - Direct data restating: "the tracking data confirms she remained stationary"
 
 ## Scoring Rules
@@ -44,7 +44,7 @@ Examples:
 - **~30%** = mostly narrating the data
 - **~20%** = the model is reading back its input
 
-In our experiments, shoplifting detection survives above ~60% and is lost below ~50%.
+In the experiments, shoplifting detection survives above ~60% and is lost below ~50%.
 
 ## Limitations
 
