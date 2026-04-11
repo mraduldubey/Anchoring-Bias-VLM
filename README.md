@@ -7,8 +7,8 @@ Companion repository for the blog series on how structured detection data suppre
 This repo contains every input and output from the experiments described in the posts. Nothing is summarized or paraphrased -- you can read every prompt sent and every response received.
 
 **Blog posts:**
-- [Part 1: The More You Tell It, The Less It Sees](LINK) -- defining anchoring bias in VLMs, the controlled experiment, and engineering guidance
-- [Part 2: The Failure Catalog](LINK) -- identity misattribution and entity fabrication under stress test conditions
+- [Part 1: The More You Tell It, The Less It Sees](https://medium.com/@mraduldubey/vlm-the-more-you-tell-it-the-less-it-sees-18f1cec9f71d) -- defining anchoring bias in VLMs, the controlled experiment, and engineering guidance
+- Upcoming Part 2: The Failure Catalog -- identity misattribution and entity fabrication under stress test conditions
 
 ## Coming from GitHub?
 
