@@ -1,5 +1,7 @@
 # Anchoring Bias in Vision-Language Models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19557723.svg)](https://doi.org/10.5281/zenodo.19557723)
+
 Companion repository for the blog series on how structured detection data suppresses visual reasoning in VLMs.
 
 ## Coming from the blog?
