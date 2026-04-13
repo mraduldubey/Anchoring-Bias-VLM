@@ -74,6 +74,21 @@ The scripts in `scripts/` generated the experiment inputs but require the full Y
 
 This is an engineer's investigation, not a peer-reviewed study. Two models from one family, one primary scene, n=1 per condition. The patterns are consistent and reproducible within scope. They are not a proof of universality. Replicate before you ship.
 
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@dataset{dubey2026anchoring,
+  author    = {Dubey, Mradul},
+  title     = {Anchoring Bias in Vision-Language Models: An Empirical Study of Structured-Metadata Delivery Channels},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19557723},
+  url       = {https://doi.org/10.5281/zenodo.19557723}
+}
+```
+
 ## License
 
 [CC-BY-4.0](LICENSE) -- use freely with attribution.
