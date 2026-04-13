@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Anchoring Bias in Vision-Language Models: An Empirical Study of Structured-Metadata Delivery Channels"
+message: "If you use this work, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - family-names: Dubey
+    given-names: Mradul
+    orcid: "https://orcid.org/0009-0006-8679-6653"
+date-released: "2026-04-13"
+url: "https://github.com/mraduldubey/Anchoring-Bias-VLM"
+repository-code: "https://github.com/mraduldubey/Anchoring-Bias-VLM"
+license: CC-BY-4.0
+keywords:
+  - anchoring-bias
+  - vision-language-models
+  - vlm
+  - object-detection
+  - yolov8
+  - visual-reasoning
+  - prompt-engineering
+  - computer-vision
+abstract: >-
+  Adding structured detection metadata to vision-language model prompts
+  systematically degrades visual reasoning due to anchoring bias, and the delivery channel
+  matters determines the magnitude. Across seven controlled conditions
+  on a surveillance scene, text-encoded bounding boxes dropped visual
+  reasoning to 53%, visual overlays preserved 69%, and cross-modal
+  ID-mapping collapsed to 47%, despite having fewer tokens. Plausibly
+  positioned fabricated detections pass unchallenged; the metadata cost
+  on visual perception is monotonic. This repository contains all raw
+  prompts, model responses, scoring rubrics, and reproducibility
+  artifacts for the study.

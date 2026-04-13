@@ -46,8 +46,12 @@ Examples:
 
 In the experiments, shoplifting detection survives above ~60% and is lost below ~50%.
 
+## Scoring Process
+
+Scores were assigned with the assistance of an LLM to ensure consistency across conditions. Each raw VLM response was provided to the scoring LLM along with the rubric above, and it returned VD and DN counts. A single human scorer reviewed and adjusted the LLM-assigned scores where the VD/DN boundary was ambiguous.
+
 ## Limitations
 
-- Manual scoring by a single scorer. No inter-rater reliability calculated.
+- Single human scorer reviewing LLM-assisted assignments. No inter-rater reliability calculated.
 - Subjective boundary between VD and DN in some cases.
 - Suitable for blog-level evidence. Would need inter-rater agreement and larger n for publication.

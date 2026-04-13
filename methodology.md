@@ -86,7 +86,7 @@ See `scoring/rubric.md` for the full scoring methodology.
 - **Data Narration (DN):** Sentences referencing, restating, or citing provided data
 - **VD/(VD+DN):** Ratio of visual reasoning to total output. 100% = pure visual. Lower = more data narration.
 
-Manual scoring by a single scorer. No inter-rater reliability. Suitable for identifying patterns; not for precise quantification.
+LLM-assisted scoring, reviewed by a single human scorer. No inter-rater reliability. Suitable for identifying patterns; not for precise quantification.
 
 ## Limitations
 
