@@ -81,7 +81,7 @@ If you use this work, please cite:
 ```bibtex
 @dataset{dubey2026anchoring,
   author    = {Dubey, Mradul},
-  title     = {Anchoring Bias in Vision-Language Models: An Empirical Study of Structured-Metadata Delivery Channels},
+  title     = {The More You Tell It, The Less It Sees: Anchoring Bias in Vision-Language Models},
   year      = {2026},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.19557723},

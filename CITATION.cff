@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Anchoring Bias in Vision-Language Models: An Empirical Study of Structured-Metadata Delivery Channels"
+title: "The More You Tell It, The Less It Sees: Anchoring Bias in Vision-Language Models"
 message: "If you use this work, please cite it using the metadata from this file."
 type: dataset
 authors:
