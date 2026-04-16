@@ -33,7 +33,7 @@ All references below are cited in Part 1. Part 2 cites no external papers. The m
 
 | Citation | Where cited | What it's cited for | Link |
 |----------|------------|--------------------|----|
-| Jones & Steinhardt, 2022 | Pattern 1 "How this differs" | LLM anchoring baseline — models over-weight reference values in reasoning tasks | https://arxiv.org/abs/2206.02339 |
+| Jones & Steinhardt, 2022 | Pattern 1 "How this differs" | LLM anchoring baseline — models over-weight reference values in reasoning tasks | https://arxiv.org/abs/2202.12299 |
 
 ### VLM visual grounding & language-prior override
 
@@ -54,7 +54,7 @@ All references below are cited in Part 1. Part 2 cites no external papers. The m
 
 | Citation | Where cited | What it's cited for | Link |
 |----------|------------|--------------------|----|
-| Multi-Object Hallucination (Chen et al., NeurIPS 2024) | Pattern 3 | Hallucination rates increase with number of object categories | https://arxiv.org/abs/2406.11649 |
+| Multi-Object Hallucination (Chen et al., NeurIPS 2024) | Pattern 3 | Hallucination rates increase with number of object categories | https://arxiv.org/abs/2407.06192 |
 
 ### Adversarial attacks on VLMs
 
@@ -62,4 +62,4 @@ All references below are cited in Part 1. Part 2 cites no external papers. The m
 |----------|------------|--------------------|----|
 | AdvEDM (NeurIPS 2025) | Pattern 2 "How this differs" | Injects/removes object semantics via adversarial image perturbations | https://arxiv.org/abs/2509.16645 |
 | Shadowcast (NeurIPS 2024) | Pattern 2 "How this differs" | Data poisoning of VLMs at training time | https://vlm-poison.github.io |
-| Prompt injection in oncology VLMs (Nature Communications, 2024) | Pattern 2 "How this differs" | Sub-visual adversarial prompts embedded in medical images | https://www.nature.com/articles/s41467-024-52258-2 |
+| Prompt injection in oncology VLMs (Clusmann et al., Nature Communications, 2025) | Pattern 2 "How this differs" | Sub-visual adversarial prompts embedded in medical images | https://www.nature.com/articles/s41467-024-55631-x |
