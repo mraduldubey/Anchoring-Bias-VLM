@@ -16,7 +16,7 @@ Hybrid perception pipelines increasingly feed the output of upstream object dete
 
 ## Blog posts
 
-- **Part 1: The More You Tell It, The Less It Sees** — defines anchoring bias in VLMs, presents the controlled experiment, and gives engineering guidance. *Under publication review.* [LINK]
+- **Part 1: The More You Tell It, The Less It Sees** — defines anchoring bias in VLMs, presents the controlled experiment, and gives engineering guidance. *Under publication review.* [Entry published in Towards AI](https://pub.towardsai.net/vlm-the-more-you-tell-it-the-less-it-sees-c07f33b6a159)
 - **Part 2 (upcoming): The Failure Catalog** — identity misattribution and entity fabrication under stress-test conditions.
 
 ## Method
